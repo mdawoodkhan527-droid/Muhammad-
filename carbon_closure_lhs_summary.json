@@ -1,0 +1,28 @@
+{
+  "design": "32-point LHS, seed 20261111; coordinates uniformly span +/- one frozen screening unit",
+  "fit_performed": false,
+  "delta13C_target_permil": -13.7,
+  "scale_used_permil": 2.1,
+  "predicted_delta13C_min_permil": -24.43882800723319,
+  "predicted_delta13C_max_permil": -10.353929893083405,
+  "predicted_delta13C_median_permil": -17.471834860411263,
+  "samples_within_target_plusminus_scale": 9,
+  "fractionation_envelope_epsilon_SRB_permil": [
+    -2.0,
+    2.0
+  ],
+  "fractionation_envelope_epsilon_calcite_HCO3_permil": [
+    0.8,
+    1.2
+  ],
+  "carbon_closure_local_rank": 1,
+  "carbon_direction_singular_value_min": 2.9903391473080276,
+  "carbon_direction_singular_value_max": 3.6271911787332476,
+  "carbon_direction_practically_distinguishable_all_samples": true,
+  "sample_count": 32,
+  "interpretation": "screening envelope propagation; not a fitted or probabilistic posterior interval",
+  "joint_practical_rank_counts": {
+    "kozeny_carman:1": 32,
+    "power_law:1": 32
+  }
+}

@@ -1,0 +1,1532 @@
+{
+  "protocol": "identifiability_protocol.md",
+  "fit_performed": false,
+  "parameter_names": [
+    "ln_k_SRB",
+    "ln_k_SOX",
+    "ln_k_SDB",
+    "ln_k_calcite",
+    "ln_k_barite",
+    "ln_D",
+    "ln_k0",
+    "ln_Ba0",
+    "ln_SO40",
+    "ln_OM0",
+    "f_org",
+    "epsilon_SRB_permil",
+    "epsilon_calcite_HCO3_permil",
+    "delta_background_permil",
+    "delta_org_permil"
+  ],
+  "results": [
+    {
+      "permeability_law": "Kozeny-Carman",
+      "nx": 40,
+      "dt_s": 0.05,
+      "observation_count": 4,
+      "parameter_count": 15,
+      "matrix_rank": 4,
+      "structural_rank_ceiling": 4,
+      "null_space_dimension": 11,
+      "distinguishable_direction_count": 1,
+      "singular_values": [
+        3.485737867471612,
+        0.06570900253261648,
+        1.8328400266532976e-05,
+        2.043879734279563e-06
+      ],
+      "directions": [
+        {
+          "mode": 1,
+          "singular_value": 3.368122033380916,
+          "relative_singular_value": 1.0,
+          "distinguishable": true,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "f_org",
+              "coefficient": -0.9790675679018963
+            }
+          ]
+        },
+        {
+          "mode": 2,
+          "singular_value": 0.0657090025326165,
+          "relative_singular_value": 0.01950909197510813,
+          "distinguishable": false,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_D",
+              "coefficient": 0.6587885995523861
+            },
+            {
+              "parameter": "ln_k_barite",
+              "coefficient": -0.6569244226300127
+            },
+            {
+              "parameter": "ln_Ba0",
+              "coefficient": 0.3629806581708385
+            }
+          ]
+        },
+        {
+          "mode": 3,
+          "singular_value": 1.8328400266533203e-05,
+          "relative_singular_value": 5.441726898515961e-06,
+          "distinguishable": false,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_SO40",
+              "coefficient": 0.6807265345983509
+            },
+            {
+              "parameter": "ln_Ba0",
+              "coefficient": 0.5966823790609687
+            },
+            {
+              "parameter": "ln_k0",
+              "coefficient": -0.37745811830477066
+            }
+          ]
+        },
+        {
+          "mode": 4,
+          "singular_value": 2.043879734279566e-06,
+          "relative_singular_value": 6.068306652855813e-07,
+          "distinguishable": false,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_k_SOX",
+              "coefficient": -0.6497980799551959
+            },
+            {
+              "parameter": "ln_k_SDB",
+              "coefficient": -0.6473795522618457
+            },
+            {
+              "parameter": "ln_D",
+              "coefficient": -0.29438433674425357
+            },
+            {
+              "parameter": "ln_k_barite",
+              "coefficient": -0.24360138567993872
+            }
+          ]
+        }
+      ],
+      "null_directions": [
+        {
+          "null_mode": 1,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_k_SRB",
+              "coefficient": 0.6588584827465818
+            },
+            {
+              "parameter": "ln_k_barite",
+              "coefficient": 0.5008307972545368
+            },
+            {
+              "parameter": "ln_D",
+              "coefficient": 0.39316683700286403
+            },
+            {
+              "parameter": "ln_k_SDB",
+              "coefficient": -0.3274127144174159
+            }
+          ],
+          "measurement_to_break_direction": "Paired time-resolved S0, sulfate and sulfide abundance and isotope measurements; Quantitative barite volume plus porewater Ba and sulfate at registered bone/matrix locations; Spatial porewater tracer profiles with a known length scale and measured diffusion coefficient; Time-resolved sulphate and dissolved inorganic carbon profiles under constrained OM supply"
+        },
+        {
+          "null_mode": 2,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_k_SRB",
+              "coefficient": -0.6576179197443281
+            },
+            {
+              "parameter": "ln_D",
+              "coefficient": 0.5094676570016162
+            },
+            {
+              "parameter": "ln_k_barite",
+              "coefficient": 0.4203651848335749
+            },
+            {
+              "parameter": "ln_k_SOX",
+              "coefficient": -0.2202894874493741
+            },
+            {
+              "parameter": "ln_k_SDB",
+              "coefficient": -0.21201686847146928
+            }
+          ],
+          "measurement_to_break_direction": "Co-located sulfate, sulfide and S0 inventories through time, with an electron-acceptor budget; Quantitative barite volume plus porewater Ba and sulfate at registered bone/matrix locations; Spatial porewater tracer profiles with a known length scale and measured diffusion coefficient; Time-resolved sulphate and dissolved inorganic carbon profiles under constrained OM supply"
+        },
+        {
+          "null_mode": 3,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_k0",
+              "coefficient": 0.8530637597293114
+            },
+            {
+              "parameter": "ln_k_SDB",
+              "coefficient": 0.2721455011099038
+            },
+            {
+              "parameter": "ln_k_SOX",
+              "coefficient": -0.27014363595522334
+            },
+            {
+              "parameter": "ln_SO40",
+              "coefficient": 0.2682780054477825
+            },
+            {
+              "parameter": "ln_Ba0",
+              "coefficient": 0.21159497634320867
+            }
+          ],
+          "measurement_to_break_direction": "Co-located sulfate, sulfide and S0 inventories through time, with an electron-acceptor budget; Hydraulic conductivity or permeability measurement on the relevant matrix; Paired time-resolved S0, sulfate and sulfide abundance and isotope measurements; Porewater sulfate concentration or a source-resolved sulfate inventory"
+        },
+        {
+          "null_mode": 4,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_Ba0",
+              "coefficient": 0.5279489365388156
+            },
+            {
+              "parameter": "ln_k_SOX",
+              "coefficient": 0.47569440374108757
+            },
+            {
+              "parameter": "ln_SO40",
+              "coefficient": -0.4002230909914997
+            },
+            {
+              "parameter": "ln_k_SRB",
+              "coefficient": -0.3609995205386898
+            },
+            {
+              "parameter": "ln_k_SDB",
+              "coefficient": -0.30681725604700827
+            },
+            {
+              "parameter": "ln_k0",
+              "coefficient": 0.23060023372726685
+            },
+            {
+              "parameter": "ln_D",
+              "coefficient": -0.2122601923552068
+            }
+          ],
+          "measurement_to_break_direction": "Co-located sulfate, sulfide and S0 inventories through time, with an electron-acceptor budget; Porewater Ba concentration or a source-resolved Ba inventory; Porewater sulfate concentration or a source-resolved sulfate inventory; Time-resolved sulphate and dissolved inorganic carbon profiles under constrained OM supply"
+        },
+        {
+          "null_mode": 5,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_SO40",
+              "coefficient": 0.5125846521144922
+            },
+            {
+              "parameter": "ln_k_SDB",
+              "coefficient": -0.5104230047483356
+            },
+            {
+              "parameter": "ln_k_SOX",
+              "coefficient": 0.47945428379746585
+            },
+            {
+              "parameter": "ln_Ba0",
+              "coefficient": -0.3611789260358685
+            },
+            {
+              "parameter": "ln_k0",
+              "coefficient": 0.2652629082943885
+            },
+            {
+              "parameter": "ln_k_barite",
+              "coefficient": -0.20419361254092336
+            }
+          ],
+          "measurement_to_break_direction": "Co-located sulfate, sulfide and S0 inventories through time, with an electron-acceptor budget; Paired time-resolved S0, sulfate and sulfide abundance and isotope measurements; Porewater Ba concentration or a source-resolved Ba inventory; Porewater sulfate concentration or a source-resolved sulfate inventory"
+        },
+        {
+          "null_mode": 6,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_OM0",
+              "coefficient": 0.9999919341801474
+            }
+          ],
+          "measurement_to_break_direction": "Labile organic-carbon inventory and independently measured degradation rate; Paired time-resolved S0, sulfate and sulfide abundance and isotope measurements; Porewater sulfate concentration or a source-resolved sulfate inventory; Quantitative barite volume plus porewater Ba and sulfate at registered bone/matrix locations"
+        },
+        {
+          "null_mode": 7,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_k_calcite",
+              "coefficient": 0.9790658184293746
+            }
+          ],
+          "measurement_to_break_direction": "Co-located background DIC \u03b413C measurement; shale carbonate alone is not a fluid measurement; Culture or natural-system \u03b413C of consumed substrate and released DIC for the relevant SRB pathway; Paired \u03b413C of DIC, carbonate, organic substrate and source endmembers from the same microenvironment; Quantitative calcite volume with co-located pH, alkalinity, Ca and DIC"
+        },
+        {
+          "null_mode": 8,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "epsilon_SRB_permil",
+              "coefficient": 0.9800112436754319
+            }
+          ],
+          "measurement_to_break_direction": "Co-located background DIC \u03b413C measurement; shale carbonate alone is not a fluid measurement; Culture or natural-system \u03b413C of consumed substrate and released DIC for the relevant SRB pathway; Paired \u03b413C of DIC, carbonate, organic substrate and source endmembers from the same microenvironment; Quantitative calcite volume with co-located pH, alkalinity, Ca and DIC"
+        },
+        {
+          "null_mode": 9,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "epsilon_calcite_HCO3_permil",
+              "coefficient": 0.9998001124367543
+            }
+          ],
+          "measurement_to_break_direction": "Culture or natural-system \u03b413C of consumed substrate and released DIC for the relevant SRB pathway; Paired \u03b413C measurements of bicarbonate and precipitated calcite at constrained temperature; Paired \u03b413C of DIC, carbonate, organic substrate and source endmembers from the same microenvironment; Quantitative calcite volume with co-located pH, alkalinity, Ca and DIC"
+        },
+        {
+          "null_mode": 10,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "delta_background_permil",
+              "coefficient": 0.9800112436754334
+            }
+          ],
+          "measurement_to_break_direction": "Co-located background DIC \u03b413C measurement; shale carbonate alone is not a fluid measurement; Culture or natural-system \u03b413C of consumed substrate and released DIC for the relevant SRB pathway; Paired \u03b413C of DIC, carbonate, organic substrate and source endmembers from the same microenvironment; Quantitative calcite volume with co-located pH, alkalinity, Ca and DIC"
+        },
+        {
+          "null_mode": 11,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "delta_org_permil",
+              "coefficient": 0.9987507027297147
+            }
+          ],
+          "measurement_to_break_direction": "Culture or natural-system \u03b413C of consumed substrate and released DIC for the relevant SRB pathway; Direct \u03b413C measurement of the reactive organic substrate, not only bulk rib OM; Paired \u03b413C of DIC, carbonate, organic substrate and source endmembers from the same microenvironment; Quantitative calcite volume with co-located pH, alkalinity, Ca and DIC"
+        }
+      ],
+      "S_whitened": [
+        [
+          -6.8909548545104116e-06,
+          2.3661174020084275e-07,
+          2.4645159912850545e-07,
+          1.028066520802895e-10,
+          0.03307439634128384,
+          -0.03316828190583432,
+          4.939274657389525e-05,
+          -0.018283040616714485,
+          0.0026044113793333157,
+          -4.144574128339684e-07,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          5.79243780385319e-06,
+          -1.907986868499023e-07,
+          -1.9852677168863408e-07,
+          -8.875122858853501e-11,
+          -0.0277376061413237,
+          0.027816283233305095,
+          -3.238901736257738e-05,
+          0.015316832992594565,
+          -0.0022001927049075665,
+          3.734631304208591e-07,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.91954785400128e-08,
+          -1.3282025834726596e-06,
+          -1.3232624784809133e-06,
+          -3.5065073067386265e-09,
+          -1.5654144647214707e-13,
+          -1.1006455280515581e-06,
+          -1.9123735928161523e-09,
+          -1.9539925233402755e-13,
+          1.104887292768808e-09,
+          6.032038202263834e-09,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -3.416666666666655,
+          0.47619047619048294,
+          0.09523809523811011,
+          0.476190476190466,
+          0.11904761904761227
+        ]
+      ],
+      "carbon_operator": "corrected; calcite-DIC fractionation applied after DIC mixing"
+    },
+    {
+      "permeability_law": "Kozeny-Carman",
+      "nx": 80,
+      "dt_s": 0.0125,
+      "observation_count": 4,
+      "parameter_count": 15,
+      "matrix_rank": 4,
+      "structural_rank_ceiling": 4,
+      "null_space_dimension": 11,
+      "distinguishable_direction_count": 1,
+      "singular_values": [
+        3.485737867471612,
+        0.06567889952107357,
+        1.7197357117719993e-05,
+        3.1584155009947754e-06
+      ],
+      "directions": [
+        {
+          "mode": 1,
+          "singular_value": 3.368122033380916,
+          "relative_singular_value": 1.0,
+          "distinguishable": true,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "f_org",
+              "coefficient": -0.9790675679018963
+            }
+          ]
+        },
+        {
+          "mode": 2,
+          "singular_value": 0.06567889952107357,
+          "relative_singular_value": 0.01950015435015138,
+          "distinguishable": false,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_k_barite",
+              "coefficient": -0.6580939070684348
+            },
+            {
+              "parameter": "ln_D",
+              "coefficient": 0.6572791442210157
+            },
+            {
+              "parameter": "ln_Ba0",
+              "coefficient": 0.3635777828570147
+            }
+          ]
+        },
+        {
+          "mode": 3,
+          "singular_value": 1.719735711772058e-05,
+          "relative_singular_value": 5.105918653564312e-06,
+          "distinguishable": false,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_SO40",
+              "coefficient": 0.6725559815449064
+            },
+            {
+              "parameter": "ln_Ba0",
+              "coefficient": 0.6089951190172419
+            },
+            {
+              "parameter": "ln_k0",
+              "coefficient": -0.3658832254368739
+            }
+          ]
+        },
+        {
+          "mode": 4,
+          "singular_value": 3.158415500994765e-06,
+          "relative_singular_value": 9.377378461030262e-07,
+          "distinguishable": false,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_k_SOX",
+              "coefficient": -0.5718170267842103
+            },
+            {
+              "parameter": "ln_k_SDB",
+              "coefficient": -0.5696172236715572
+            },
+            {
+              "parameter": "ln_D",
+              "coefficient": 0.43181314946573585
+            },
+            {
+              "parameter": "ln_k_barite",
+              "coefficient": 0.3640407956904906
+            }
+          ]
+        }
+      ],
+      "null_directions": [
+        {
+          "null_mode": 1,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_k_SRB",
+              "coefficient": 0.6564871604892887
+            },
+            {
+              "parameter": "ln_k_barite",
+              "coefficient": 0.48415668060255423
+            },
+            {
+              "parameter": "ln_D",
+              "coefficient": 0.36661901266590136
+            },
+            {
+              "parameter": "ln_k_SDB",
+              "coefficient": 0.30752660365847023
+            },
+            {
+              "parameter": "ln_k_SOX",
+              "coefficient": 0.2196745745604613
+            },
+            {
+              "parameter": "ln_Ba0",
+              "coefficient": 0.19476501365696347
+            }
+          ],
+          "measurement_to_break_direction": "Paired time-resolved S0, sulfate and sulfide abundance and isotope measurements; Quantitative barite volume plus porewater Ba and sulfate at registered bone/matrix locations; Spatial porewater tracer profiles with a known length scale and measured diffusion coefficient; Time-resolved sulphate and dissolved inorganic carbon profiles under constrained OM supply"
+        },
+        {
+          "null_mode": 2,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_k_SRB",
+              "coefficient": -0.6601545842156824
+            },
+            {
+              "parameter": "ln_k_SDB",
+              "coefficient": 0.5275260183734798
+            },
+            {
+              "parameter": "ln_D",
+              "coefficient": 0.3917730023058569
+            },
+            {
+              "parameter": "ln_k_barite",
+              "coefficient": 0.3292449458967044
+            }
+          ],
+          "measurement_to_break_direction": "Paired time-resolved S0, sulfate and sulfide abundance and isotope measurements; Quantitative barite volume plus porewater Ba and sulfate at registered bone/matrix locations; Spatial porewater tracer profiles with a known length scale and measured diffusion coefficient; Time-resolved sulphate and dissolved inorganic carbon profiles under constrained OM supply"
+        },
+        {
+          "null_mode": 3,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_k0",
+              "coefficient": 0.8711376398123725
+            },
+            {
+              "parameter": "ln_k_SOX",
+              "coefficient": -0.30861486975757374
+            },
+            {
+              "parameter": "ln_SO40",
+              "coefficient": 0.23401172908792245
+            },
+            {
+              "parameter": "ln_Ba0",
+              "coefficient": 0.2338342984682029
+            }
+          ],
+          "measurement_to_break_direction": "Co-located sulfate, sulfide and S0 inventories through time, with an electron-acceptor budget; Hydraulic conductivity or permeability measurement on the relevant matrix; Porewater Ba concentration or a source-resolved Ba inventory; Porewater sulfate concentration or a source-resolved sulfate inventory"
+        },
+        {
+          "null_mode": 4,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_Ba0",
+              "coefficient": 0.466367165374537
+            },
+            {
+              "parameter": "ln_k_SDB",
+              "coefficient": -0.4576068095100811
+            },
+            {
+              "parameter": "ln_k_SOX",
+              "coefficient": 0.4419119974195803
+            },
+            {
+              "parameter": "ln_k_SRB",
+              "coefficient": -0.3609320408421862
+            },
+            {
+              "parameter": "ln_SO40",
+              "coefficient": -0.35495851661073013
+            },
+            {
+              "parameter": "ln_k_barite",
+              "coefficient": 0.2795735530294401
+            },
+            {
+              "parameter": "ln_k0",
+              "coefficient": 0.20819975223489365
+            }
+          ],
+          "measurement_to_break_direction": "Co-located sulfate, sulfide and S0 inventories through time, with an electron-acceptor budget; Paired time-resolved S0, sulfate and sulfide abundance and isotope measurements; Porewater Ba concentration or a source-resolved Ba inventory; Time-resolved sulphate and dissolved inorganic carbon profiles under constrained OM supply"
+        },
+        {
+          "null_mode": 5,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_k_SOX",
+              "coefficient": 0.5778915906993553
+            },
+            {
+              "parameter": "ln_SO40",
+              "coefficient": 0.5647274756107232
+            },
+            {
+              "parameter": "ln_Ba0",
+              "coefficient": -0.40838360750333175
+            },
+            {
+              "parameter": "ln_k_SDB",
+              "coefficient": -0.2614069589999065
+            },
+            {
+              "parameter": "ln_k0",
+              "coefficient": 0.23779958467334816
+            },
+            {
+              "parameter": "ln_D",
+              "coefficient": 0.22459628675221455
+            }
+          ],
+          "measurement_to_break_direction": "Co-located sulfate, sulfide and S0 inventories through time, with an electron-acceptor budget; Paired time-resolved S0, sulfate and sulfide abundance and isotope measurements; Porewater Ba concentration or a source-resolved Ba inventory; Porewater sulfate concentration or a source-resolved sulfate inventory"
+        },
+        {
+          "null_mode": 6,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_OM0",
+              "coefficient": 0.9999937808812187
+            }
+          ],
+          "measurement_to_break_direction": "Labile organic-carbon inventory and independently measured degradation rate; Paired time-resolved S0, sulfate and sulfide abundance and isotope measurements; Porewater Ba concentration or a source-resolved Ba inventory; Spatial porewater tracer profiles with a known length scale and measured diffusion coefficient"
+        },
+        {
+          "null_mode": 7,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_k_calcite",
+              "coefficient": 0.9790661136487787
+            }
+          ],
+          "measurement_to_break_direction": "Co-located background DIC \u03b413C measurement; shale carbonate alone is not a fluid measurement; Culture or natural-system \u03b413C of consumed substrate and released DIC for the relevant SRB pathway; Paired \u03b413C of DIC, carbonate, organic substrate and source endmembers from the same microenvironment; Quantitative calcite volume with co-located pH, alkalinity, Ca and DIC"
+        },
+        {
+          "null_mode": 8,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "epsilon_SRB_permil",
+              "coefficient": 0.9800112436754319
+            }
+          ],
+          "measurement_to_break_direction": "Co-located background DIC \u03b413C measurement; shale carbonate alone is not a fluid measurement; Culture or natural-system \u03b413C of consumed substrate and released DIC for the relevant SRB pathway; Paired \u03b413C of DIC, carbonate, organic substrate and source endmembers from the same microenvironment; Quantitative calcite volume with co-located pH, alkalinity, Ca and DIC"
+        },
+        {
+          "null_mode": 9,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "epsilon_calcite_HCO3_permil",
+              "coefficient": 0.9998001124367543
+            }
+          ],
+          "measurement_to_break_direction": "Culture or natural-system \u03b413C of consumed substrate and released DIC for the relevant SRB pathway; Paired \u03b413C measurements of bicarbonate and precipitated calcite at constrained temperature; Paired \u03b413C of DIC, carbonate, organic substrate and source endmembers from the same microenvironment; Quantitative calcite volume with co-located pH, alkalinity, Ca and DIC"
+        },
+        {
+          "null_mode": 10,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "delta_background_permil",
+              "coefficient": 0.9800112436754334
+            }
+          ],
+          "measurement_to_break_direction": "Co-located background DIC \u03b413C measurement; shale carbonate alone is not a fluid measurement; Culture or natural-system \u03b413C of consumed substrate and released DIC for the relevant SRB pathway; Paired \u03b413C of DIC, carbonate, organic substrate and source endmembers from the same microenvironment; Quantitative calcite volume with co-located pH, alkalinity, Ca and DIC"
+        },
+        {
+          "null_mode": 11,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "delta_org_permil",
+              "coefficient": 0.9987507027297147
+            }
+          ],
+          "measurement_to_break_direction": "Culture or natural-system \u03b413C of consumed substrate and released DIC for the relevant SRB pathway; Direct \u03b413C measurement of the reactive organic substrate, not only bulk rib OM; Paired \u03b413C of DIC, carbonate, organic substrate and source endmembers from the same microenvironment; Quantitative calcite volume with co-located pH, alkalinity, Ca and DIC"
+        }
+      ],
+      "S_whitened": [
+        [
+          -6.828457440599678e-06,
+          2.3560104422948314e-07,
+          2.455301928439013e-07,
+          1.0356382418308385e-10,
+          0.03289715088481637,
+          -0.03285566435160647,
+          5.154402407336889e-05,
+          -0.018182170652963903,
+          0.002593344111391227,
+          -4.123636776487416e-07,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          5.831223330865498e-06,
+          -1.9351361069119832e-07,
+          -2.0147722712415828e-07,
+          -9.063305661527465e-11,
+          -0.028035604770062506,
+          0.02800178398104647,
+          -3.565316049614076e-05,
+          0.015480115739703315,
+          -0.0022251116962290762,
+          3.754738941985636e-07,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          2.697270296003751e-08,
+          -1.8065425921864886e-06,
+          -1.7995824008743e-06,
+          -4.823914601104207e-09,
+          -2.686739719592879e-13,
+          2.5443817419645853e-06,
+          -9.714862247989231e-10,
+          -2.808864252301646e-13,
+          1.5524315166715041e-09,
+          8.500333770200541e-09,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -3.416666666666655,
+          0.47619047619048294,
+          0.09523809523811011,
+          0.476190476190466,
+          0.11904761904761227
+        ]
+      ],
+      "carbon_operator": "corrected; calcite-DIC fractionation applied after DIC mixing"
+    },
+    {
+      "permeability_law": "Power law",
+      "nx": 40,
+      "dt_s": 0.05,
+      "observation_count": 4,
+      "parameter_count": 15,
+      "matrix_rank": 4,
+      "structural_rank_ceiling": 4,
+      "null_space_dimension": 11,
+      "distinguishable_direction_count": 1,
+      "singular_values": [
+        3.485737867471612,
+        0.06570900251031352,
+        1.8328402589000953e-05,
+        2.0438797333631697e-06
+      ],
+      "directions": [
+        {
+          "mode": 1,
+          "singular_value": 3.368122033380916,
+          "relative_singular_value": 1.0,
+          "distinguishable": true,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "f_org",
+              "coefficient": -0.9790675679018963
+            }
+          ]
+        },
+        {
+          "mode": 2,
+          "singular_value": 0.06570900251031352,
+          "relative_singular_value": 0.019509091968486342,
+          "distinguishable": false,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_D",
+              "coefficient": 0.6587885990766942
+            },
+            {
+              "parameter": "ln_k_barite",
+              "coefficient": -0.6569244234602835
+            },
+            {
+              "parameter": "ln_Ba0",
+              "coefficient": 0.3629806575094585
+            }
+          ]
+        },
+        {
+          "mode": 3,
+          "singular_value": 1.832840258900102e-05,
+          "relative_singular_value": 5.441727588059806e-06,
+          "distinguishable": false,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_SO40",
+              "coefficient": 0.680726435953552
+            },
+            {
+              "parameter": "ln_Ba0",
+              "coefficient": 0.5966821795832296
+            },
+            {
+              "parameter": "ln_k0",
+              "coefficient": -0.37745864853849936
+            }
+          ]
+        },
+        {
+          "mode": 4,
+          "singular_value": 2.0438797333631697e-06,
+          "relative_singular_value": 6.068306650135019e-07,
+          "distinguishable": false,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_k_SOX",
+              "coefficient": -0.6497980813510963
+            },
+            {
+              "parameter": "ln_k_SDB",
+              "coefficient": -0.647379552009429
+            },
+            {
+              "parameter": "ln_D",
+              "coefficient": -0.294384334399406
+            },
+            {
+              "parameter": "ln_k_barite",
+              "coefficient": -0.24360137820533245
+            }
+          ]
+        }
+      ],
+      "null_directions": [
+        {
+          "null_mode": 1,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_k_SRB",
+              "coefficient": 0.6588584830701405
+            },
+            {
+              "parameter": "ln_k_barite",
+              "coefficient": 0.5008308420892906
+            },
+            {
+              "parameter": "ln_D",
+              "coefficient": 0.39316683874102076
+            },
+            {
+              "parameter": "ln_k_SDB",
+              "coefficient": -0.32741263182538266
+            }
+          ],
+          "measurement_to_break_direction": "Paired time-resolved S0, sulfate and sulfide abundance and isotope measurements; Quantitative barite volume plus porewater Ba and sulfate at registered bone/matrix locations; Spatial porewater tracer profiles with a known length scale and measured diffusion coefficient; Time-resolved sulphate and dissolved inorganic carbon profiles under constrained OM supply"
+        },
+        {
+          "null_mode": 2,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_k_SRB",
+              "coefficient": -0.6576179193526512
+            },
+            {
+              "parameter": "ln_D",
+              "coefficient": 0.5094676559066623
+            },
+            {
+              "parameter": "ln_k_barite",
+              "coefficient": 0.42036517422573755
+            },
+            {
+              "parameter": "ln_k_SOX",
+              "coefficient": -0.22028949831134467
+            },
+            {
+              "parameter": "ln_k_SDB",
+              "coefficient": -0.2120168557153692
+            }
+          ],
+          "measurement_to_break_direction": "Co-located sulfate, sulfide and S0 inventories through time, with an electron-acceptor budget; Quantitative barite volume plus porewater Ba and sulfate at registered bone/matrix locations; Spatial porewater tracer profiles with a known length scale and measured diffusion coefficient; Time-resolved sulphate and dissolved inorganic carbon profiles under constrained OM supply"
+        },
+        {
+          "null_mode": 3,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_k0",
+              "coefficient": 0.8530633464944403
+            },
+            {
+              "parameter": "ln_k_SDB",
+              "coefficient": 0.27214588605267825
+            },
+            {
+              "parameter": "ln_k_SOX",
+              "coefficient": -0.2701440141470582
+            },
+            {
+              "parameter": "ln_SO40",
+              "coefficient": 0.26827834494417113
+            },
+            {
+              "parameter": "ln_Ba0",
+              "coefficient": 0.21159519763820153
+            }
+          ],
+          "measurement_to_break_direction": "Co-located sulfate, sulfide and S0 inventories through time, with an electron-acceptor budget; Hydraulic conductivity or permeability measurement on the relevant matrix; Paired time-resolved S0, sulfate and sulfide abundance and isotope measurements; Porewater sulfate concentration or a source-resolved sulfate inventory"
+        },
+        {
+          "null_mode": 4,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_Ba0",
+              "coefficient": 0.5279491695412334
+            },
+            {
+              "parameter": "ln_k_SOX",
+              "coefficient": 0.47569425817153904
+            },
+            {
+              "parameter": "ln_SO40",
+              "coefficient": -0.4002228905240584
+            },
+            {
+              "parameter": "ln_k_SRB",
+              "coefficient": -0.360999520705386
+            },
+            {
+              "parameter": "ln_k_SDB",
+              "coefficient": -0.30681711872663675
+            },
+            {
+              "parameter": "ln_k0",
+              "coefficient": 0.23060048143925957
+            },
+            {
+              "parameter": "ln_D",
+              "coefficient": -0.21226018465754107
+            }
+          ],
+          "measurement_to_break_direction": "Co-located sulfate, sulfide and S0 inventories through time, with an electron-acceptor budget; Porewater Ba concentration or a source-resolved Ba inventory; Porewater sulfate concentration or a source-resolved sulfate inventory; Time-resolved sulphate and dissolved inorganic carbon profiles under constrained OM supply"
+        },
+        {
+          "null_mode": 5,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_SO40",
+              "coefficient": 0.5125847893160674
+            },
+            {
+              "parameter": "ln_k_SDB",
+              "coefficient": -0.5104229406547165
+            },
+            {
+              "parameter": "ln_k_SOX",
+              "coefficient": 0.479454209955839
+            },
+            {
+              "parameter": "ln_Ba0",
+              "coefficient": -0.3611787320729181
+            },
+            {
+              "parameter": "ln_k0",
+              "coefficient": 0.265263243201223
+            },
+            {
+              "parameter": "ln_k_barite",
+              "coefficient": -0.20419350814642306
+            }
+          ],
+          "measurement_to_break_direction": "Co-located sulfate, sulfide and S0 inventories through time, with an electron-acceptor budget; Paired time-resolved S0, sulfate and sulfide abundance and isotope measurements; Porewater Ba concentration or a source-resolved Ba inventory; Porewater sulfate concentration or a source-resolved sulfate inventory"
+        },
+        {
+          "null_mode": 6,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_OM0",
+              "coefficient": 0.999991934181175
+            }
+          ],
+          "measurement_to_break_direction": "Labile organic-carbon inventory and independently measured degradation rate; Paired time-resolved S0, sulfate and sulfide abundance and isotope measurements; Porewater sulfate concentration or a source-resolved sulfate inventory; Quantitative barite volume plus porewater Ba and sulfate at registered bone/matrix locations"
+        },
+        {
+          "null_mode": 7,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_k_calcite",
+              "coefficient": 0.9790658184328003
+            }
+          ],
+          "measurement_to_break_direction": "Co-located background DIC \u03b413C measurement; shale carbonate alone is not a fluid measurement; Culture or natural-system \u03b413C of consumed substrate and released DIC for the relevant SRB pathway; Paired \u03b413C of DIC, carbonate, organic substrate and source endmembers from the same microenvironment; Quantitative calcite volume with co-located pH, alkalinity, Ca and DIC"
+        },
+        {
+          "null_mode": 8,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "epsilon_SRB_permil",
+              "coefficient": 0.9800112436754319
+            }
+          ],
+          "measurement_to_break_direction": "Co-located background DIC \u03b413C measurement; shale carbonate alone is not a fluid measurement; Culture or natural-system \u03b413C of consumed substrate and released DIC for the relevant SRB pathway; Paired \u03b413C of DIC, carbonate, organic substrate and source endmembers from the same microenvironment; Quantitative calcite volume with co-located pH, alkalinity, Ca and DIC"
+        },
+        {
+          "null_mode": 9,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "epsilon_calcite_HCO3_permil",
+              "coefficient": 0.9998001124367543
+            }
+          ],
+          "measurement_to_break_direction": "Culture or natural-system \u03b413C of consumed substrate and released DIC for the relevant SRB pathway; Paired \u03b413C measurements of bicarbonate and precipitated calcite at constrained temperature; Paired \u03b413C of DIC, carbonate, organic substrate and source endmembers from the same microenvironment; Quantitative calcite volume with co-located pH, alkalinity, Ca and DIC"
+        },
+        {
+          "null_mode": 10,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "delta_background_permil",
+              "coefficient": 0.9800112436754334
+            }
+          ],
+          "measurement_to_break_direction": "Co-located background DIC \u03b413C measurement; shale carbonate alone is not a fluid measurement; Culture or natural-system \u03b413C of consumed substrate and released DIC for the relevant SRB pathway; Paired \u03b413C of DIC, carbonate, organic substrate and source endmembers from the same microenvironment; Quantitative calcite volume with co-located pH, alkalinity, Ca and DIC"
+        },
+        {
+          "null_mode": 11,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "delta_org_permil",
+              "coefficient": 0.9987507027297147
+            }
+          ],
+          "measurement_to_break_direction": "Culture or natural-system \u03b413C of consumed substrate and released DIC for the relevant SRB pathway; Direct \u03b413C measurement of the reactive organic substrate, not only bulk rib OM; Paired \u03b413C of DIC, carbonate, organic substrate and source endmembers from the same microenvironment; Quantitative calcite volume with co-located pH, alkalinity, Ca and DIC"
+        }
+      ],
+      "S_whitened": [
+        [
+          -6.8909548489592964e-06,
+          2.3661173464972762e-07,
+          2.464516002387285e-07,
+          1.0278777828887087e-10,
+          0.033074396344684454,
+          -0.03316828184181775,
+          4.9392937292447314e-05,
+          -0.018283040560104213,
+          0.0026044113809653435,
+          -4.1445741505441447e-07,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          5.79243781495542e-06,
+          -1.9079868796012533e-07,
+          -1.985267727988571e-07,
+          -8.873235479711639e-11,
+          -0.02773760619936949,
+          0.027816283238130124,
+          -3.238916353898169e-05,
+          0.015316832979886952,
+          -0.002200192710525295,
+          3.734631293106361e-07,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.91954785400128e-08,
+          -1.3282025856931057e-06,
+          -1.3232624773706902e-06,
+          -3.5065039760695527e-09,
+          -1.5765166949677223e-13,
+          -1.100645525831112e-06,
+          -1.912376923485226e-09,
+          -1.965094753586527e-13,
+          1.1048861825457834e-09,
+          6.032038202263834e-09,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -3.416666666666655,
+          0.47619047619048294,
+          0.09523809523811011,
+          0.476190476190466,
+          0.11904761904761227
+        ]
+      ],
+      "carbon_operator": "corrected; calcite-DIC fractionation applied after DIC mixing"
+    },
+    {
+      "permeability_law": "Power law",
+      "nx": 80,
+      "dt_s": 0.0125,
+      "observation_count": 4,
+      "parameter_count": 15,
+      "matrix_rank": 4,
+      "structural_rank_ceiling": 4,
+      "null_space_dimension": 11,
+      "distinguishable_direction_count": 1,
+      "singular_values": [
+        3.485737867471612,
+        0.06567889950069133,
+        1.7197359181414556e-05,
+        3.1584154991165874e-06
+      ],
+      "directions": [
+        {
+          "mode": 1,
+          "singular_value": 3.368122033380916,
+          "relative_singular_value": 1.0,
+          "distinguishable": true,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "f_org",
+              "coefficient": -0.9790675679018963
+            }
+          ]
+        },
+        {
+          "mode": 2,
+          "singular_value": 0.06567889950069133,
+          "relative_singular_value": 0.019500154344099865,
+          "distinguishable": false,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_k_barite",
+              "coefficient": -0.6580939078848517
+            },
+            {
+              "parameter": "ln_D",
+              "coefficient": 0.6572791437604278
+            },
+            {
+              "parameter": "ln_Ba0",
+              "coefficient": 0.3635777821891695
+            }
+          ]
+        },
+        {
+          "mode": 3,
+          "singular_value": 1.7197359181414424e-05,
+          "relative_singular_value": 5.105919266277814e-06,
+          "distinguishable": false,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_SO40",
+              "coefficient": 0.6725558884926005
+            },
+            {
+              "parameter": "ln_Ba0",
+              "coefficient": 0.6089949250040458
+            },
+            {
+              "parameter": "ln_k0",
+              "coefficient": -0.36588374565246884
+            }
+          ]
+        },
+        {
+          "mode": 4,
+          "singular_value": 3.158415499116589e-06,
+          "relative_singular_value": 9.377378455453933e-07,
+          "distinguishable": false,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_k_SOX",
+              "coefficient": -0.5718170267891048
+            },
+            {
+              "parameter": "ln_k_SDB",
+              "coefficient": -0.5696172243809399
+            },
+            {
+              "parameter": "ln_D",
+              "coefficient": 0.43181314772599716
+            },
+            {
+              "parameter": "ln_k_barite",
+              "coefficient": 0.36404078160489667
+            }
+          ]
+        }
+      ],
+      "null_directions": [
+        {
+          "null_mode": 1,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_k_SRB",
+              "coefficient": 0.6564871611546443
+            },
+            {
+              "parameter": "ln_k_barite",
+              "coefficient": 0.4841566945151512
+            },
+            {
+              "parameter": "ln_D",
+              "coefficient": 0.36661898218555644
+            },
+            {
+              "parameter": "ln_k_SDB",
+              "coefficient": 0.3075266516075107
+            },
+            {
+              "parameter": "ln_k_SOX",
+              "coefficient": 0.21967448336533282
+            },
+            {
+              "parameter": "ln_Ba0",
+              "coefficient": 0.19476510791960622
+            }
+          ],
+          "measurement_to_break_direction": "Paired time-resolved S0, sulfate and sulfide abundance and isotope measurements; Quantitative barite volume plus porewater Ba and sulfate at registered bone/matrix locations; Spatial porewater tracer profiles with a known length scale and measured diffusion coefficient; Time-resolved sulphate and dissolved inorganic carbon profiles under constrained OM supply"
+        },
+        {
+          "null_mode": 2,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_k_SRB",
+              "coefficient": -0.6601545833667961
+            },
+            {
+              "parameter": "ln_k_SDB",
+              "coefficient": 0.527526023784971
+            },
+            {
+              "parameter": "ln_D",
+              "coefficient": 0.39177299811667793
+            },
+            {
+              "parameter": "ln_k_barite",
+              "coefficient": 0.32924493158052043
+            }
+          ],
+          "measurement_to_break_direction": "Paired time-resolved S0, sulfate and sulfide abundance and isotope measurements; Quantitative barite volume plus porewater Ba and sulfate at registered bone/matrix locations; Spatial porewater tracer profiles with a known length scale and measured diffusion coefficient; Time-resolved sulphate and dissolved inorganic carbon profiles under constrained OM supply"
+        },
+        {
+          "null_mode": 3,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_k0",
+              "coefficient": 0.8711372735081931
+            },
+            {
+              "parameter": "ln_k_SOX",
+              "coefficient": -0.30861530915456514
+            },
+            {
+              "parameter": "ln_SO40",
+              "coefficient": 0.23401202838814542
+            },
+            {
+              "parameter": "ln_Ba0",
+              "coefficient": 0.23383456278696033
+            }
+          ],
+          "measurement_to_break_direction": "Co-located sulfate, sulfide and S0 inventories through time, with an electron-acceptor budget; Hydraulic conductivity or permeability measurement on the relevant matrix; Porewater Ba concentration or a source-resolved Ba inventory; Porewater sulfate concentration or a source-resolved sulfate inventory"
+        },
+        {
+          "null_mode": 4,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_Ba0",
+              "coefficient": 0.46636740191745485
+            },
+            {
+              "parameter": "ln_k_SDB",
+              "coefficient": -0.45760671975094674
+            },
+            {
+              "parameter": "ln_k_SOX",
+              "coefficient": 0.44191183598517897
+            },
+            {
+              "parameter": "ln_k_SRB",
+              "coefficient": -0.36093204131045187
+            },
+            {
+              "parameter": "ln_SO40",
+              "coefficient": -0.3549583382521891
+            },
+            {
+              "parameter": "ln_k_barite",
+              "coefficient": 0.2795736153656012
+            },
+            {
+              "parameter": "ln_k0",
+              "coefficient": 0.20819998043756177
+            }
+          ],
+          "measurement_to_break_direction": "Co-located sulfate, sulfide and S0 inventories through time, with an electron-acceptor budget; Paired time-resolved S0, sulfate and sulfide abundance and isotope measurements; Porewater Ba concentration or a source-resolved Ba inventory; Time-resolved sulphate and dissolved inorganic carbon profiles under constrained OM supply"
+        },
+        {
+          "null_mode": 5,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_k_SOX",
+              "coefficient": 0.5778915144327548
+            },
+            {
+              "parameter": "ln_SO40",
+              "coefficient": 0.5647275962288444
+            },
+            {
+              "parameter": "ln_Ba0",
+              "coefficient": -0.4083834206950494
+            },
+            {
+              "parameter": "ln_k_SDB",
+              "coefficient": -0.2614069127212868
+            },
+            {
+              "parameter": "ln_k0",
+              "coefficient": 0.23779988977090605
+            },
+            {
+              "parameter": "ln_D",
+              "coefficient": 0.22459626485371362
+            }
+          ],
+          "measurement_to_break_direction": "Co-located sulfate, sulfide and S0 inventories through time, with an electron-acceptor budget; Paired time-resolved S0, sulfate and sulfide abundance and isotope measurements; Porewater Ba concentration or a source-resolved Ba inventory; Porewater sulfate concentration or a source-resolved sulfate inventory"
+        },
+        {
+          "null_mode": 6,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_OM0",
+              "coefficient": 0.9999937808829155
+            }
+          ],
+          "measurement_to_break_direction": "Labile organic-carbon inventory and independently measured degradation rate; Paired time-resolved S0, sulfate and sulfide abundance and isotope measurements; Porewater Ba concentration or a source-resolved Ba inventory; Spatial porewater tracer profiles with a known length scale and measured diffusion coefficient"
+        },
+        {
+          "null_mode": 7,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_k_calcite",
+              "coefficient": 0.9790661136481208
+            }
+          ],
+          "measurement_to_break_direction": "Co-located background DIC \u03b413C measurement; shale carbonate alone is not a fluid measurement; Culture or natural-system \u03b413C of consumed substrate and released DIC for the relevant SRB pathway; Paired \u03b413C of DIC, carbonate, organic substrate and source endmembers from the same microenvironment; Quantitative calcite volume with co-located pH, alkalinity, Ca and DIC"
+        },
+        {
+          "null_mode": 8,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "epsilon_SRB_permil",
+              "coefficient": 0.9800112436754319
+            }
+          ],
+          "measurement_to_break_direction": "Co-located background DIC \u03b413C measurement; shale carbonate alone is not a fluid measurement; Culture or natural-system \u03b413C of consumed substrate and released DIC for the relevant SRB pathway; Paired \u03b413C of DIC, carbonate, organic substrate and source endmembers from the same microenvironment; Quantitative calcite volume with co-located pH, alkalinity, Ca and DIC"
+        },
+        {
+          "null_mode": 9,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "epsilon_calcite_HCO3_permil",
+              "coefficient": 0.9998001124367543
+            }
+          ],
+          "measurement_to_break_direction": "Culture or natural-system \u03b413C of consumed substrate and released DIC for the relevant SRB pathway; Paired \u03b413C measurements of bicarbonate and precipitated calcite at constrained temperature; Paired \u03b413C of DIC, carbonate, organic substrate and source endmembers from the same microenvironment; Quantitative calcite volume with co-located pH, alkalinity, Ca and DIC"
+        },
+        {
+          "null_mode": 10,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "delta_background_permil",
+              "coefficient": 0.9800112436754334
+            }
+          ],
+          "measurement_to_break_direction": "Co-located background DIC \u03b413C measurement; shale carbonate alone is not a fluid measurement; Culture or natural-system \u03b413C of consumed substrate and released DIC for the relevant SRB pathway; Paired \u03b413C of DIC, carbonate, organic substrate and source endmembers from the same microenvironment; Quantitative calcite volume with co-located pH, alkalinity, Ca and DIC"
+        },
+        {
+          "null_mode": 11,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "delta_org_permil",
+              "coefficient": 0.9987507027297147
+            }
+          ],
+          "measurement_to_break_direction": "Culture or natural-system \u03b413C of consumed substrate and released DIC for the relevant SRB pathway; Direct \u03b413C measurement of the reactive organic substrate, not only bulk rib OM; Paired \u03b413C of DIC, carbonate, organic substrate and source endmembers from the same microenvironment; Quantitative calcite volume with co-located pH, alkalinity, Ca and DIC"
+        }
+      ],
+      "S_whitened": [
+        [
+          -6.828457573826441e-06,
+          2.3560104644992919e-07,
+          2.455301917336783e-07,
+          1.0354161972259135e-10,
+          0.03289715088757417,
+          -0.032855664289143105,
+          5.1544213732768185e-05,
+          -0.018182170596622305,
+          0.0025933441130254753,
+          -4.123636787589646e-07,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          5.831223447438916e-06,
+          -1.935136140218674e-07,
+          -2.0147722712415828e-07,
+          -9.06130726008314e-11,
+          -0.028035604828815508,
+          0.028001783987047224,
+          -3.565330944810263e-05,
+          0.01548011572678365,
+          -0.00222511170197226,
+          3.754738953087866e-07,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          2.6972699629368435e-08,
+          -1.8065425910762656e-06,
+          -1.799582401984523e-06,
+          -4.823915711327231e-09,
+          -2.6645352591003757e-13,
+          2.5443817430748084e-06,
+          -9.714862247989231e-10,
+          -2.8199664825478976e-13,
+          1.5524315166715041e-09,
+          8.500332659977516e-09,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -3.416666666666655,
+          0.47619047619048294,
+          0.09523809523811011,
+          0.476190476190466,
+          0.11904761904761227
+        ]
+      ],
+      "carbon_operator": "corrected; calcite-DIC fractionation applied after DIC mixing"
+    }
+  ],
+  "carbon_operator_corrected": true
+}

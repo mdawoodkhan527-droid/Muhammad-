@@ -1,0 +1,10 @@
+{
+  "comparisons": 30,
+  "feedback_effects_above_1pct": 0,
+  "feedback_effects_above_refinement_envelope": 18,
+  "effects_meeting_both_rules": 0,
+  "maximum_feedback_relative_difference": 0.004258338328404067,
+  "maximum_refinement_envelope": 0.0277833320209945,
+  "decision": "retain Stage 1 one-way coupling for this synthetic benchmark",
+  "comparison_design": "20 cells, dt=0.2 s versus 40 cells, dt=0.05 s; final time 60 s; same prescribed inputs"
+}

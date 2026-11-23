@@ -1,0 +1,5 @@
+permeability_law,rank_type,rank_counts,sample_count,LHS_seed
+kozeny_carman,numerical_rank_rel_1e-8,"{""3"": 32}",32,20261111
+kozeny_carman,practical_rank_sigma_ge_1,"{""1"": 32}",32,20261111
+power_law,numerical_rank_rel_1e-8,"{""3"": 32}",32,20261111
+power_law,practical_rank_sigma_ge_1,"{""1"": 32}",32,20261111

@@ -1,0 +1,1295 @@
+{
+  "fit_performed": false,
+  "protocol": "identifiability_protocol.md",
+  "parameter_names": [
+    "ln_k_SRB",
+    "ln_k_SOX",
+    "ln_k_SDB",
+    "ln_k_calcite",
+    "ln_k_barite",
+    "ln_D",
+    "ln_k0",
+    "ln_Ba0",
+    "ln_SO40",
+    "ln_OM0",
+    "f_org",
+    "epsilon_SRB_permil",
+    "epsilon_calcite_HCO3_permil",
+    "delta_background_permil",
+    "delta_org_permil"
+  ],
+  "results": [
+    {
+      "permeability_law": "Kozeny-Carman",
+      "nx": 40,
+      "dt_s": 0.05,
+      "observation_count": 4,
+      "parameter_count": 15,
+      "matrix_rank": 4,
+      "structural_rank_ceiling": 4,
+      "null_space_dimension": 11,
+      "distinguishable_direction_count": 1,
+      "singular_values": [
+        3.368122033380916,
+        0.0657090025326165,
+        1.8328400266533203e-05,
+        2.043879734279566e-06
+      ],
+      "directions": [
+        {
+          "mode": 1,
+          "singular_value": 3.368122033380916,
+          "relative_singular_value": 1.0,
+          "distinguishable": true,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "f_org",
+              "coefficient": -0.9790675679018963
+            }
+          ]
+        },
+        {
+          "mode": 2,
+          "singular_value": 0.0657090025326165,
+          "relative_singular_value": 0.01950909197510813,
+          "distinguishable": false,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_D",
+              "coefficient": 0.6587885995523861
+            },
+            {
+              "parameter": "ln_k_barite",
+              "coefficient": -0.6569244226300127
+            },
+            {
+              "parameter": "ln_Ba0",
+              "coefficient": 0.3629806581708385
+            }
+          ]
+        },
+        {
+          "mode": 3,
+          "singular_value": 1.8328400266533203e-05,
+          "relative_singular_value": 5.441726898515961e-06,
+          "distinguishable": false,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_SO40",
+              "coefficient": 0.6807265345983509
+            },
+            {
+              "parameter": "ln_Ba0",
+              "coefficient": 0.5966823790609687
+            },
+            {
+              "parameter": "ln_k0",
+              "coefficient": -0.37745811830477066
+            }
+          ]
+        },
+        {
+          "mode": 4,
+          "singular_value": 2.043879734279566e-06,
+          "relative_singular_value": 6.068306652855813e-07,
+          "distinguishable": false,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_k_SOX",
+              "coefficient": -0.6497980799551959
+            },
+            {
+              "parameter": "ln_k_SDB",
+              "coefficient": -0.6473795522618457
+            },
+            {
+              "parameter": "ln_D",
+              "coefficient": -0.29438433674425357
+            },
+            {
+              "parameter": "ln_k_barite",
+              "coefficient": -0.24360138567993872
+            }
+          ]
+        }
+      ],
+      "null_directions": [
+        {
+          "null_mode": 1,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_k_SRB",
+              "coefficient": 0.6588584827465818
+            },
+            {
+              "parameter": "ln_k_barite",
+              "coefficient": 0.5008307972545368
+            },
+            {
+              "parameter": "ln_D",
+              "coefficient": 0.39316683700286403
+            },
+            {
+              "parameter": "ln_k_SDB",
+              "coefficient": -0.3274127144174159
+            }
+          ],
+          "measurement_to_break_direction": "Paired time-resolved S0, sulfate and sulfide abundance and isotope measurements; Quantitative barite volume plus porewater Ba and sulfate at registered bone/matrix locations; Spatial porewater tracer profiles with a known length scale and measured diffusion coefficient; Time-resolved sulphate and dissolved inorganic carbon profiles under constrained OM supply"
+        },
+        {
+          "null_mode": 2,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_k_SRB",
+              "coefficient": -0.6576179197443281
+            },
+            {
+              "parameter": "ln_D",
+              "coefficient": 0.5094676570016162
+            },
+            {
+              "parameter": "ln_k_barite",
+              "coefficient": 0.4203651848335749
+            },
+            {
+              "parameter": "ln_k_SOX",
+              "coefficient": -0.2202894874493741
+            },
+            {
+              "parameter": "ln_k_SDB",
+              "coefficient": -0.21201686847146928
+            }
+          ],
+          "measurement_to_break_direction": "Co-located sulfate, sulfide and S0 inventories through time, with an electron-acceptor budget; Quantitative barite volume plus porewater Ba and sulfate at registered bone/matrix locations; Spatial porewater tracer profiles with a known length scale and measured diffusion coefficient; Time-resolved sulphate and dissolved inorganic carbon profiles under constrained OM supply"
+        },
+        {
+          "null_mode": 3,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_k0",
+              "coefficient": 0.8530637597293114
+            },
+            {
+              "parameter": "ln_k_SDB",
+              "coefficient": 0.2721455011099038
+            },
+            {
+              "parameter": "ln_k_SOX",
+              "coefficient": -0.27014363595522334
+            },
+            {
+              "parameter": "ln_SO40",
+              "coefficient": 0.2682780054477825
+            },
+            {
+              "parameter": "ln_Ba0",
+              "coefficient": 0.21159497634320867
+            }
+          ],
+          "measurement_to_break_direction": "Co-located sulfate, sulfide and S0 inventories through time, with an electron-acceptor budget; Hydraulic conductivity or permeability measurement on the relevant matrix; Paired time-resolved S0, sulfate and sulfide abundance and isotope measurements; Porewater sulfate concentration or a source-resolved sulfate inventory"
+        },
+        {
+          "null_mode": 4,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_Ba0",
+              "coefficient": 0.5279489365388156
+            },
+            {
+              "parameter": "ln_k_SOX",
+              "coefficient": 0.47569440374108757
+            },
+            {
+              "parameter": "ln_SO40",
+              "coefficient": -0.4002230909914997
+            },
+            {
+              "parameter": "ln_k_SRB",
+              "coefficient": -0.3609995205386898
+            },
+            {
+              "parameter": "ln_k_SDB",
+              "coefficient": -0.30681725604700827
+            },
+            {
+              "parameter": "ln_k0",
+              "coefficient": 0.23060023372726685
+            },
+            {
+              "parameter": "ln_D",
+              "coefficient": -0.2122601923552068
+            }
+          ],
+          "measurement_to_break_direction": "Co-located sulfate, sulfide and S0 inventories through time, with an electron-acceptor budget; Porewater Ba concentration or a source-resolved Ba inventory; Porewater sulfate concentration or a source-resolved sulfate inventory; Time-resolved sulphate and dissolved inorganic carbon profiles under constrained OM supply"
+        },
+        {
+          "null_mode": 5,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_SO40",
+              "coefficient": 0.5125846521144922
+            },
+            {
+              "parameter": "ln_k_SDB",
+              "coefficient": -0.5104230047483356
+            },
+            {
+              "parameter": "ln_k_SOX",
+              "coefficient": 0.47945428379746585
+            },
+            {
+              "parameter": "ln_Ba0",
+              "coefficient": -0.3611789260358685
+            },
+            {
+              "parameter": "ln_k0",
+              "coefficient": 0.2652629082943885
+            },
+            {
+              "parameter": "ln_k_barite",
+              "coefficient": -0.20419361254092336
+            }
+          ],
+          "measurement_to_break_direction": "Co-located sulfate, sulfide and S0 inventories through time, with an electron-acceptor budget; Paired time-resolved S0, sulfate and sulfide abundance and isotope measurements; Porewater Ba concentration or a source-resolved Ba inventory; Porewater sulfate concentration or a source-resolved sulfate inventory"
+        },
+        {
+          "null_mode": 6,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_OM0",
+              "coefficient": 0.9999919341801474
+            }
+          ],
+          "measurement_to_break_direction": "Labile organic-carbon inventory and independently measured degradation rate; Paired time-resolved S0, sulfate and sulfide abundance and isotope measurements; Porewater sulfate concentration or a source-resolved sulfate inventory; Quantitative barite volume plus porewater Ba and sulfate at registered bone/matrix locations"
+        },
+        {
+          "null_mode": 7,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_k_calcite",
+              "coefficient": 0.9790658184293746
+            }
+          ],
+          "measurement_to_break_direction": "Co-located background DIC \u03b413C measurement; shale carbonate alone is not a fluid measurement; Culture or natural-system \u03b413C of consumed substrate and released DIC for the relevant SRB pathway; Paired \u03b413C of DIC, carbonate, organic substrate and source endmembers from the same microenvironment; Quantitative calcite volume with co-located pH, alkalinity, Ca and DIC"
+        },
+        {
+          "null_mode": 8,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "epsilon_SRB_permil",
+              "coefficient": 0.9800112436754319
+            }
+          ],
+          "measurement_to_break_direction": "Co-located background DIC \u03b413C measurement; shale carbonate alone is not a fluid measurement; Culture or natural-system \u03b413C of consumed substrate and released DIC for the relevant SRB pathway; Paired \u03b413C of DIC, carbonate, organic substrate and source endmembers from the same microenvironment; Quantitative calcite volume with co-located pH, alkalinity, Ca and DIC"
+        },
+        {
+          "null_mode": 9,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "epsilon_calcite_HCO3_permil",
+              "coefficient": 0.9998001124367543
+            }
+          ],
+          "measurement_to_break_direction": "Culture or natural-system \u03b413C of consumed substrate and released DIC for the relevant SRB pathway; Paired \u03b413C measurements of bicarbonate and precipitated calcite at constrained temperature; Paired \u03b413C of DIC, carbonate, organic substrate and source endmembers from the same microenvironment; Quantitative calcite volume with co-located pH, alkalinity, Ca and DIC"
+        },
+        {
+          "null_mode": 10,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "delta_background_permil",
+              "coefficient": 0.9800112436754334
+            }
+          ],
+          "measurement_to_break_direction": "Co-located background DIC \u03b413C measurement; shale carbonate alone is not a fluid measurement; Culture or natural-system \u03b413C of consumed substrate and released DIC for the relevant SRB pathway; Paired \u03b413C of DIC, carbonate, organic substrate and source endmembers from the same microenvironment; Quantitative calcite volume with co-located pH, alkalinity, Ca and DIC"
+        },
+        {
+          "null_mode": 11,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "delta_org_permil",
+              "coefficient": 0.9987507027297147
+            }
+          ],
+          "measurement_to_break_direction": "Culture or natural-system \u03b413C of consumed substrate and released DIC for the relevant SRB pathway; Direct \u03b413C measurement of the reactive organic substrate, not only bulk rib OM; Paired \u03b413C of DIC, carbonate, organic substrate and source endmembers from the same microenvironment; Quantitative calcite volume with co-located pH, alkalinity, Ca and DIC"
+        }
+      ],
+      "S_whitened": [
+        [
+          -6.8909548545104116e-06,
+          2.3661174020084275e-07,
+          2.4645159912850545e-07,
+          1.028066520802895e-10,
+          0.03307439634128384,
+          -0.03316828190583432,
+          4.939274657389525e-05,
+          -0.018283040616714485,
+          0.0026044113793333157,
+          -4.144574128339684e-07,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          5.79243780385319e-06,
+          -1.907986868499023e-07,
+          -1.9852677168863408e-07,
+          -8.875122858853501e-11,
+          -0.0277376061413237,
+          0.027816283233305095,
+          -3.238901736257738e-05,
+          0.015316832992594565,
+          -0.0022001927049075665,
+          3.734631304208591e-07,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.91954785400128e-08,
+          -1.3282025834726596e-06,
+          -1.3232624784809133e-06,
+          -3.5065073067386265e-09,
+          -1.5654144647214707e-13,
+          -1.1006455280515581e-06,
+          -1.9123735928161523e-09,
+          -1.9539925233402755e-13,
+          1.104887292768808e-09,
+          6.032038202263834e-09,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -3.2976190476190426,
+          0.47619047619048294,
+          0.047619047619055055,
+          0.476190476190466,
+          0.11904761904761227
+        ]
+      ],
+      "full_right_singular_vectors": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.9790675679018963,
+          0.14138159825298363,
+          0.01413815982530037,
+          0.1413815982529786,
+          0.035345399563243396
+        ],
+        [
+          0.00013699921345566962,
+          -4.62471496215929e-06,
+          -4.815030934915818e-06,
+          -2.06612979827623e-09,
+          -0.6569244226300127,
+          0.6587885995523861,
+          -0.000892702099862771,
+          0.3629806581708385,
+          -0.051885547539788426,
+          8.485043363284435e-06,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0005797464804762596,
+          -0.0009309873896741831,
+          -0.0009505745572158935,
+          -1.5115773978472683e-06,
+          0.1388159944046084,
+          -0.1372360643826495,
+          -0.37745811830477066,
+          0.5966823790609687,
+          0.6807265345983509,
+          -0.0010809394666071925,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0094845964368966,
+          -0.6497980799551959,
+          -0.6473795522618457,
+          -0.0017155607734767738,
+          -0.24360138567993872,
+          -0.29438433674425357,
+          0.027373367784654358,
+          0.08353237430315259,
+          -0.06949330000456408,
+          0.00303636127537303,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.6588584827465818,
+          0.009713918208289285,
+          -0.3274127144174159,
+          -0.0003410254942426899,
+          0.5008307972545368,
+          0.39316683700286403,
+          0.057134368916321586,
+          0.1723956109062387,
+          -0.14217991860302476,
+          0.0007592250858742783,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.6576179197443281,
+          -0.2202894874493741,
+          -0.21201686847146928,
+          -0.00022073085624835874,
+          0.4203651848335749,
+          0.5094676570016162,
+          -0.04745583092919625,
+          -0.1468479933971473,
+          0.11823444807306614,
+          0.00023705674754495647,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.000809662731905896,
+          -0.27014363595522334,
+          0.2721455011099038,
+          0.00028358276502377474,
+          0.09213297489872127,
+          -0.0024272121910051733,
+          0.8530637597293114,
+          0.21159497634320867,
+          0.2682780054477825,
+          -0.0009107132736019793,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.3609995205386898,
+          0.47569440374108757,
+          -0.30681725604700827,
+          -0.0003197915353441971,
+          0.11007419272027205,
+          -0.2122601923552068,
+          0.23060023372726685,
+          0.5279489365388156,
+          -0.4002230909914997,
+          0.001209311122131106,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.05506857992951607,
+          0.47945428379746585,
+          -0.5104230047483356,
+          -0.00053186149439505,
+          -0.20419361254092336,
+          0.036105558612628846,
+          0.2652629082943885,
+          -0.3611789260358685,
+          0.5125846521144922,
+          0.0016790241328804975,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -3.0394003959420683e-05,
+          0.00039056553157190975,
+          0.0037394228761928267,
+          3.894688198329557e-06,
+          0.0007090391266492267,
+          0.0005145097332817079,
+          -0.0004706030056951926,
+          0.00045286673702238535,
+          0.0008948735010096417,
+          0.9999919341801474,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          9.668789068366477e-06,
+          -0.0006621921852579067,
+          -0.0016799433245243533,
+          0.9790658184293746,
+          -0.00024834375259695865,
+          -0.00030027537049575785,
+          2.772157419933159e-05,
+          8.54873853103348e-05,
+          -7.051895911937312e-05,
+          3.095827745417604e-06,
+          0.04142669748266566,
+          0.13842213754763166,
+          0.013842213754765133,
+          0.13842213754762675,
+          0.03460553438690546
+        ],
+        [
+          -1.3962150279229784e-06,
+          9.562342025385085e-05,
+          0.00024259109379413423,
+          -0.14138134562157254,
+          3.586191373241337e-05,
+          4.336106433151806e-05,
+          -4.003115407845787e-06,
+          -1.2344748781275959e-05,
+          1.0183243194133469e-05,
+          -4.4705093796644816e-07,
+          0.13842213754763166,
+          0.9800112436754319,
+          -0.0019988756324570904,
+          -0.019988756324567356,
+          -0.004997189081141661
+        ],
+        [
+          -1.3962150279231793e-07,
+          9.562342025386445e-06,
+          2.4259109379416866e-05,
+          -0.014138134562159262,
+          3.5861913732418457e-06,
+          4.336106433152422e-06,
+          -4.003115407846345e-07,
+          -1.234474878127773e-06,
+          1.0183243194134904e-06,
+          -4.470509379665115e-08,
+          0.013842213754765133,
+          -0.0019988756324570904,
+          0.9998001124367543,
+          -0.0019988756324570193,
+          -0.000499718908114237
+        ],
+        [
+          -1.396215027922932e-06,
+          9.562342025384746e-05,
+          0.0002425910937941256,
+          -0.1413813456215675,
+          3.586191373241209e-05,
+          4.3361064331516514e-05,
+          -4.003115407845643e-06,
+          -1.2344748781275528e-05,
+          1.0183243194133103e-05,
+          -4.4705093796643223e-07,
+          0.13842213754762675,
+          -0.019988756324567356,
+          -0.0019988756324570193,
+          0.9800112436754334,
+          -0.004997189081141483
+        ],
+        [
+          -3.4905375698072004e-07,
+          2.3905855063461017e-05,
+          6.0647773448529247e-05,
+          -0.03534533640539062,
+          8.965478433102704e-06,
+          1.0840266082878744e-05,
+          -1.0007788519613748e-06,
+          -3.086187195318773e-06,
+          2.545810798533184e-06,
+          -1.1176273449160409e-07,
+          0.03460553438690546,
+          -0.004997189081141661,
+          -0.000499718908114237,
+          -0.004997189081141483,
+          0.9987507027297147
+        ]
+      ],
+      "numerical_rank_relative_cutoff_1e-8": 4,
+      "practical_rank_sigma_ge_1": 1,
+      "relative_condition_number_nonzero": 1647906.1741703325
+    },
+    {
+      "permeability_law": "Power law",
+      "nx": 40,
+      "dt_s": 0.05,
+      "observation_count": 4,
+      "parameter_count": 15,
+      "matrix_rank": 4,
+      "structural_rank_ceiling": 4,
+      "null_space_dimension": 11,
+      "distinguishable_direction_count": 1,
+      "singular_values": [
+        3.368122033380916,
+        0.06570900251031352,
+        1.832840258900102e-05,
+        2.0438797333631697e-06
+      ],
+      "directions": [
+        {
+          "mode": 1,
+          "singular_value": 3.368122033380916,
+          "relative_singular_value": 1.0,
+          "distinguishable": true,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "f_org",
+              "coefficient": -0.9790675679018963
+            }
+          ]
+        },
+        {
+          "mode": 2,
+          "singular_value": 0.06570900251031352,
+          "relative_singular_value": 0.019509091968486342,
+          "distinguishable": false,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_D",
+              "coefficient": 0.6587885990766942
+            },
+            {
+              "parameter": "ln_k_barite",
+              "coefficient": -0.6569244234602835
+            },
+            {
+              "parameter": "ln_Ba0",
+              "coefficient": 0.3629806575094585
+            }
+          ]
+        },
+        {
+          "mode": 3,
+          "singular_value": 1.832840258900102e-05,
+          "relative_singular_value": 5.441727588059806e-06,
+          "distinguishable": false,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_SO40",
+              "coefficient": 0.680726435953552
+            },
+            {
+              "parameter": "ln_Ba0",
+              "coefficient": 0.5966821795832296
+            },
+            {
+              "parameter": "ln_k0",
+              "coefficient": -0.37745864853849936
+            }
+          ]
+        },
+        {
+          "mode": 4,
+          "singular_value": 2.0438797333631697e-06,
+          "relative_singular_value": 6.068306650135019e-07,
+          "distinguishable": false,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_k_SOX",
+              "coefficient": -0.6497980813510963
+            },
+            {
+              "parameter": "ln_k_SDB",
+              "coefficient": -0.647379552009429
+            },
+            {
+              "parameter": "ln_D",
+              "coefficient": -0.294384334399406
+            },
+            {
+              "parameter": "ln_k_barite",
+              "coefficient": -0.24360137820533245
+            }
+          ]
+        }
+      ],
+      "null_directions": [
+        {
+          "null_mode": 1,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_k_SRB",
+              "coefficient": 0.6588584830701405
+            },
+            {
+              "parameter": "ln_k_barite",
+              "coefficient": 0.5008308420892906
+            },
+            {
+              "parameter": "ln_D",
+              "coefficient": 0.39316683874102076
+            },
+            {
+              "parameter": "ln_k_SDB",
+              "coefficient": -0.32741263182538266
+            }
+          ],
+          "measurement_to_break_direction": "Paired time-resolved S0, sulfate and sulfide abundance and isotope measurements; Quantitative barite volume plus porewater Ba and sulfate at registered bone/matrix locations; Spatial porewater tracer profiles with a known length scale and measured diffusion coefficient; Time-resolved sulphate and dissolved inorganic carbon profiles under constrained OM supply"
+        },
+        {
+          "null_mode": 2,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_k_SRB",
+              "coefficient": -0.6576179193526512
+            },
+            {
+              "parameter": "ln_D",
+              "coefficient": 0.5094676559066623
+            },
+            {
+              "parameter": "ln_k_barite",
+              "coefficient": 0.42036517422573755
+            },
+            {
+              "parameter": "ln_k_SOX",
+              "coefficient": -0.22028949831134467
+            },
+            {
+              "parameter": "ln_k_SDB",
+              "coefficient": -0.2120168557153692
+            }
+          ],
+          "measurement_to_break_direction": "Co-located sulfate, sulfide and S0 inventories through time, with an electron-acceptor budget; Quantitative barite volume plus porewater Ba and sulfate at registered bone/matrix locations; Spatial porewater tracer profiles with a known length scale and measured diffusion coefficient; Time-resolved sulphate and dissolved inorganic carbon profiles under constrained OM supply"
+        },
+        {
+          "null_mode": 3,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_k0",
+              "coefficient": 0.8530633464944403
+            },
+            {
+              "parameter": "ln_k_SDB",
+              "coefficient": 0.27214588605267825
+            },
+            {
+              "parameter": "ln_k_SOX",
+              "coefficient": -0.2701440141470582
+            },
+            {
+              "parameter": "ln_SO40",
+              "coefficient": 0.26827834494417113
+            },
+            {
+              "parameter": "ln_Ba0",
+              "coefficient": 0.21159519763820153
+            }
+          ],
+          "measurement_to_break_direction": "Co-located sulfate, sulfide and S0 inventories through time, with an electron-acceptor budget; Hydraulic conductivity or permeability measurement on the relevant matrix; Paired time-resolved S0, sulfate and sulfide abundance and isotope measurements; Porewater sulfate concentration or a source-resolved sulfate inventory"
+        },
+        {
+          "null_mode": 4,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_Ba0",
+              "coefficient": 0.5279491695412334
+            },
+            {
+              "parameter": "ln_k_SOX",
+              "coefficient": 0.47569425817153904
+            },
+            {
+              "parameter": "ln_SO40",
+              "coefficient": -0.4002228905240584
+            },
+            {
+              "parameter": "ln_k_SRB",
+              "coefficient": -0.360999520705386
+            },
+            {
+              "parameter": "ln_k_SDB",
+              "coefficient": -0.30681711872663675
+            },
+            {
+              "parameter": "ln_k0",
+              "coefficient": 0.23060048143925957
+            },
+            {
+              "parameter": "ln_D",
+              "coefficient": -0.21226018465754107
+            }
+          ],
+          "measurement_to_break_direction": "Co-located sulfate, sulfide and S0 inventories through time, with an electron-acceptor budget; Porewater Ba concentration or a source-resolved Ba inventory; Porewater sulfate concentration or a source-resolved sulfate inventory; Time-resolved sulphate and dissolved inorganic carbon profiles under constrained OM supply"
+        },
+        {
+          "null_mode": 5,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_SO40",
+              "coefficient": 0.5125847893160674
+            },
+            {
+              "parameter": "ln_k_SDB",
+              "coefficient": -0.5104229406547165
+            },
+            {
+              "parameter": "ln_k_SOX",
+              "coefficient": 0.479454209955839
+            },
+            {
+              "parameter": "ln_Ba0",
+              "coefficient": -0.3611787320729181
+            },
+            {
+              "parameter": "ln_k0",
+              "coefficient": 0.265263243201223
+            },
+            {
+              "parameter": "ln_k_barite",
+              "coefficient": -0.20419350814642306
+            }
+          ],
+          "measurement_to_break_direction": "Co-located sulfate, sulfide and S0 inventories through time, with an electron-acceptor budget; Paired time-resolved S0, sulfate and sulfide abundance and isotope measurements; Porewater Ba concentration or a source-resolved Ba inventory; Porewater sulfate concentration or a source-resolved sulfate inventory"
+        },
+        {
+          "null_mode": 6,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_OM0",
+              "coefficient": 0.999991934181175
+            }
+          ],
+          "measurement_to_break_direction": "Labile organic-carbon inventory and independently measured degradation rate; Paired time-resolved S0, sulfate and sulfide abundance and isotope measurements; Porewater sulfate concentration or a source-resolved sulfate inventory; Quantitative barite volume plus porewater Ba and sulfate at registered bone/matrix locations"
+        },
+        {
+          "null_mode": 7,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "ln_k_calcite",
+              "coefficient": 0.9790658184328003
+            }
+          ],
+          "measurement_to_break_direction": "Co-located background DIC \u03b413C measurement; shale carbonate alone is not a fluid measurement; Culture or natural-system \u03b413C of consumed substrate and released DIC for the relevant SRB pathway; Paired \u03b413C of DIC, carbonate, organic substrate and source endmembers from the same microenvironment; Quantitative calcite volume with co-located pH, alkalinity, Ca and DIC"
+        },
+        {
+          "null_mode": 8,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "epsilon_SRB_permil",
+              "coefficient": 0.9800112436754319
+            }
+          ],
+          "measurement_to_break_direction": "Co-located background DIC \u03b413C measurement; shale carbonate alone is not a fluid measurement; Culture or natural-system \u03b413C of consumed substrate and released DIC for the relevant SRB pathway; Paired \u03b413C of DIC, carbonate, organic substrate and source endmembers from the same microenvironment; Quantitative calcite volume with co-located pH, alkalinity, Ca and DIC"
+        },
+        {
+          "null_mode": 9,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "epsilon_calcite_HCO3_permil",
+              "coefficient": 0.9998001124367543
+            }
+          ],
+          "measurement_to_break_direction": "Culture or natural-system \u03b413C of consumed substrate and released DIC for the relevant SRB pathway; Paired \u03b413C measurements of bicarbonate and precipitated calcite at constrained temperature; Paired \u03b413C of DIC, carbonate, organic substrate and source endmembers from the same microenvironment; Quantitative calcite volume with co-located pH, alkalinity, Ca and DIC"
+        },
+        {
+          "null_mode": 10,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "delta_background_permil",
+              "coefficient": 0.9800112436754334
+            }
+          ],
+          "measurement_to_break_direction": "Co-located background DIC \u03b413C measurement; shale carbonate alone is not a fluid measurement; Culture or natural-system \u03b413C of consumed substrate and released DIC for the relevant SRB pathway; Paired \u03b413C of DIC, carbonate, organic substrate and source endmembers from the same microenvironment; Quantitative calcite volume with co-located pH, alkalinity, Ca and DIC"
+        },
+        {
+          "null_mode": 11,
+          "singular_value": 0.0,
+          "dominant_parameter_combination": [
+            {
+              "parameter": "delta_org_permil",
+              "coefficient": 0.9987507027297147
+            }
+          ],
+          "measurement_to_break_direction": "Culture or natural-system \u03b413C of consumed substrate and released DIC for the relevant SRB pathway; Direct \u03b413C measurement of the reactive organic substrate, not only bulk rib OM; Paired \u03b413C of DIC, carbonate, organic substrate and source endmembers from the same microenvironment; Quantitative calcite volume with co-located pH, alkalinity, Ca and DIC"
+        }
+      ],
+      "S_whitened": [
+        [
+          -6.8909548489592964e-06,
+          2.3661173464972762e-07,
+          2.464516002387285e-07,
+          1.0278777828887087e-10,
+          0.033074396344684454,
+          -0.03316828184181775,
+          4.9392937292447314e-05,
+          -0.018283040560104213,
+          0.0026044113809653435,
+          -4.1445741505441447e-07,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          5.79243781495542e-06,
+          -1.9079868796012533e-07,
+          -1.985267727988571e-07,
+          -8.873235479711639e-11,
+          -0.02773760619936949,
+          0.027816283238130124,
+          -3.238916353898169e-05,
+          0.015316832979886952,
+          -0.002200192710525295,
+          3.734631293106361e-07,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.91954785400128e-08,
+          -1.3282025856931057e-06,
+          -1.3232624773706902e-06,
+          -3.5065039760695527e-09,
+          -1.5765166949677223e-13,
+          -1.100645525831112e-06,
+          -1.912376923485226e-09,
+          -1.965094753586527e-13,
+          1.1048861825457834e-09,
+          6.032038202263834e-09,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -3.2976190476190426,
+          0.47619047619048294,
+          0.047619047619055055,
+          0.476190476190466,
+          0.11904761904761227
+        ]
+      ],
+      "full_right_singular_vectors": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.9790675679018963,
+          0.14138159825298363,
+          0.01413815982530037,
+          0.1413815982529786,
+          0.035345399563243396
+        ],
+        [
+          0.00013699921354622785,
+          -4.624714909761546e-06,
+          -4.815030960257105e-06,
+          -2.0657251481691984e-09,
+          -0.6569244234602835,
+          0.6587885990766942,
+          -0.0008927057534803986,
+          0.3629806575094585,
+          -0.051885547631558136,
+          8.485043381510289e-06,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0005797465641239621,
+          -0.0009309870379159789,
+          -0.000950574435693412,
+          -1.5117030431761867e-06,
+          0.13881587829238287,
+          -0.13723608006898297,
+          -0.37745864853849936,
+          0.5966821795832296,
+          0.680726435953552,
+          -0.0010809391743585447,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.009484596452154164,
+          -0.6497980813510963,
+          -0.647379552009429,
+          -0.0017155591349189913,
+          -0.24360137820533245,
+          -0.294384334399406,
+          0.02737340820961172,
+          0.08353238332710088,
+          -0.06949329870673512,
+          0.003036361263514349,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.6588584830701405,
+          0.009713834295842072,
+          -0.32741263182538266,
+          -0.0003410250646097823,
+          0.5008308420892906,
+          0.39316683874102076,
+          0.05713440279901872,
+          0.17239570526059794,
+          -0.14217982227323592,
+          0.0007592247649736674,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.6576179193526512,
+          -0.22028949831134467,
+          -0.2120168557153692,
+          -0.00022073064983044638,
+          0.42036517422573755,
+          0.5094676559066623,
+          -0.04745590189186004,
+          -0.1468480101626487,
+          0.118234446016003,
+          0.00023705674553610995,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0008096615073037193,
+          -0.2701440141470582,
+          0.27214588605267825,
+          0.0002835828472843799,
+          0.09213305810162543,
+          -0.0024272198794830814,
+          0.8530633464944403,
+          0.21159519763820153,
+          0.26827834494417113,
+          -0.0009107144455868036,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.360999520705386,
+          0.47569425817153904,
+          -0.30681711872663675,
+          -0.00031979101103572034,
+          0.11007431127059004,
+          -0.21226018465754107,
+          0.23060048143925957,
+          0.5279491695412334,
+          -0.4002228905240584,
+          0.0012093104763156702,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.05506857965741093,
+          0.479454209955839,
+          -0.5104229406547165,
+          -0.0005318608330265589,
+          -0.20419350814642306,
+          0.036105568049930155,
+          0.265263243201223,
+          -0.3611787320729181,
+          0.5125847893160674,
+          0.0016790237053521282,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -3.0394002816499577e-05,
+          0.00039056574889499013,
+          0.0037394226763972486,
+          3.894684133037261e-06,
+          0.0007090389139336015,
+          0.0005145097152964802,
+          -0.00047060355769596877,
+          0.0004528663365960783,
+          0.0008948731841196766,
+          0.999991934181175,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          9.668778946102271e-06,
+          -0.0006621916471152876,
+          -0.0016799416391399295,
+          0.9790658184328003,
+          -0.00024834347834614583,
+          -0.0003002750842154538,
+          2.77215403453457e-05,
+          8.548738279561463e-05,
+          -7.051880232390498e-05,
+          3.0958244930707894e-06,
+          0.04142669748266566,
+          0.13842213754763166,
+          0.013842213754765133,
+          0.13842213754762675,
+          0.03460553438690546
+        ],
+        [
+          -1.3962135662241782e-06,
+          9.562334254372532e-05,
+          0.0002425908504173221,
+          -0.14138134562206722,
+          3.586187412940791e-05,
+          4.336102299140195e-05,
+          -4.003110519183568e-06,
+          -1.2344748418139475e-05,
+          1.0183220552188616e-05,
+          -4.470504683134784e-07,
+          0.13842213754763166,
+          0.9800112436754319,
+          -0.0019988756324570904,
+          -0.019988756324567356,
+          -0.004997189081141661
+        ],
+        [
+          -1.39621356622438e-07,
+          9.562334254373889e-06,
+          2.4259085041735656e-05,
+          -0.014138134562208733,
+          3.5861874129413e-06,
+          4.336102299140811e-06,
+          -4.003110519184134e-07,
+          -1.234474841814123e-06,
+          1.018322055219006e-06,
+          -4.470504683135419e-08,
+          0.013842213754765133,
+          -0.0019988756324570904,
+          0.9998001124367543,
+          -0.0019988756324570193,
+          -0.000499718908114237
+        ],
+        [
+          -1.3962135662241319e-06,
+          9.562334254372193e-05,
+          0.0002425908504173135,
+          -0.1413813456220622,
+          3.586187412940663e-05,
+          4.336102299140041e-05,
+          -4.003110519183424e-06,
+          -1.2344748418139041e-05,
+          1.018322055218825e-05,
+          -4.4705046831346257e-07,
+          0.13842213754762675,
+          -0.019988756324567356,
+          -0.0019988756324570193,
+          0.9800112436754334,
+          -0.004997189081141483
+        ],
+        [
+          -3.4905339155602026e-07,
+          2.3905835635929633e-05,
+          6.064771260432622e-05,
+          -0.035345336405514294,
+          8.965468532351339e-06,
+          1.0840255747849718e-05,
+          -1.0007776297958212e-06,
+          -3.0861871045346497e-06,
+          2.5458051380469735e-06,
+          -1.1176261707836167e-07,
+          0.03460553438690546,
+          -0.004997189081141661,
+          -0.000499718908114237,
+          -0.004997189081141483,
+          0.9987507027297147
+        ]
+      ],
+      "numerical_rank_relative_cutoff_1e-8": 4,
+      "practical_rank_sigma_ge_1": 1,
+      "relative_condition_number_nonzero": 1647906.1749091898
+    }
+  ]
+}

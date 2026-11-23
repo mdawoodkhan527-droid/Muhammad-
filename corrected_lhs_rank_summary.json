@@ -1,0 +1,18 @@
+{
+  "kozeny_carman": {
+    "numerical_rank_rel_1e-8": {
+      "3": 32
+    },
+    "practical_rank_sigma_ge_1": {
+      "1": 32
+    }
+  },
+  "power_law": {
+    "numerical_rank_rel_1e-8": {
+      "3": 32
+    },
+    "practical_rank_sigma_ge_1": {
+      "1": 32
+    }
+  }
+}

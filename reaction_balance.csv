@@ -1,0 +1,7 @@
+Ba,C,Ca,Cl,H,Na,O,S,charge,passed,reaction
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,True,SRB_eq1
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,True,SRB_eq2
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,True,calcite_eq3
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,True,barite_eq4
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,True,sulfur_oxidation_eq5
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,True,disproportionation_eq6

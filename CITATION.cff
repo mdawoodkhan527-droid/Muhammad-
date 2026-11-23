@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated manuscript and the archived release."
+title: "Fossil-concretion observability benchmark"
+type: software
+version: 1.0.0
+date-released: 2026-11-23
+authors:
+  - family-names: Dawood
+    given-names: Muhammad
+  - family-names: Arshad
+    given-names: Faizan
+license: MIT

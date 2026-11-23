@@ -1,0 +1,560 @@
+{
+  "reaction_balance_passed": true,
+  "zero_rate_transport": {
+    "relative_L2_error": 1.860469688679009e-05,
+    "relative_max_error": 2.024528461985753e-05,
+    "passed": true
+  },
+  "uniform_precipitation_poroelastic_limit": {
+    "relative_displacement_L2_error": 1.31647054813469e-15,
+    "normalized_equilibrium_residual": 3.3284077504909806e-14,
+    "zero_pressure_max_displacement": 0.0,
+    "passed": true
+  },
+  "all_stepwise_conservation_passed": true,
+  "scenarios": [
+    "S1: Eq.5/Eq.6 off",
+    "S2: Eq.5 only; S0 accumulates",
+    "S3: Eq.5 plus Eq.6 disproportionation"
+  ],
+  "permeability_laws": [
+    "Kozeny-Carman",
+    "power law, n=3"
+  ],
+  "coupling_decision": "retain Stage 1 one-way coupling for this synthetic benchmark",
+  "model_scope": "synthetic reduced chemistry; idealised activities, uncalibrated kinetics, no site-specific porewater or mechanical inputs",
+  "reaction_balances": [
+    {
+      "C": 0.0,
+      "H": 0.0,
+      "O": 0.0,
+      "S": 0.0,
+      "Ca": 0.0,
+      "Ba": 0.0,
+      "Cl": 0.0,
+      "Na": 0.0,
+      "charge": 0.0,
+      "reaction": "SRB_eq1",
+      "passed": true
+    },
+    {
+      "C": 0.0,
+      "H": 0.0,
+      "O": 0.0,
+      "S": 0.0,
+      "Ca": 0.0,
+      "Ba": 0.0,
+      "Cl": 0.0,
+      "Na": 0.0,
+      "charge": 0.0,
+      "reaction": "SRB_eq2",
+      "passed": true
+    },
+    {
+      "C": 0.0,
+      "H": 0.0,
+      "O": 0.0,
+      "S": 0.0,
+      "Ca": 0.0,
+      "Ba": 0.0,
+      "Cl": 0.0,
+      "Na": 0.0,
+      "charge": 0.0,
+      "reaction": "calcite_eq3",
+      "passed": true
+    },
+    {
+      "C": 0.0,
+      "H": 0.0,
+      "O": 0.0,
+      "S": 0.0,
+      "Ca": 0.0,
+      "Ba": 0.0,
+      "Cl": 0.0,
+      "Na": 0.0,
+      "charge": 0.0,
+      "reaction": "barite_eq4",
+      "passed": true
+    },
+    {
+      "C": 0.0,
+      "H": 0.0,
+      "O": 0.0,
+      "S": 0.0,
+      "Ca": 0.0,
+      "Ba": 0.0,
+      "Cl": 0.0,
+      "Na": 0.0,
+      "charge": 0.0,
+      "reaction": "sulfur_oxidation_eq5",
+      "passed": true
+    },
+    {
+      "C": 0.0,
+      "H": 0.0,
+      "O": 0.0,
+      "S": 0.0,
+      "Ca": 0.0,
+      "Ba": 0.0,
+      "Cl": 0.0,
+      "Na": 0.0,
+      "charge": 0.0,
+      "reaction": "disproportionation_eq6",
+      "passed": true
+    }
+  ],
+  "case_max_residuals": [
+    {
+      "scenario": "S1",
+      "permeability_law": "kozeny_carman",
+      "coupling": "stage1_one_way",
+      "max_relative_element_residual": 7.279573010460869e-16,
+      "relative_charge_residual": 2.370279690742914e-16,
+      "max_local_charge_residual": 5.181828741803559e-16,
+      "max_absolute_volume_residual": 0.0,
+      "mechanical_equilibrium_residual": 1.3905710445417154e-14
+    },
+    {
+      "scenario": "S1",
+      "permeability_law": "kozeny_carman",
+      "coupling": "stage2_two_way",
+      "max_relative_element_residual": 6.30719721805561e-16,
+      "relative_charge_residual": 1.1082530530875688e-16,
+      "max_local_charge_residual": 3.7013872887823315e-16,
+      "max_absolute_volume_residual": 2.7755575615628914e-17,
+      "mechanical_equilibrium_residual": 1.2864103646962827e-14
+    },
+    {
+      "scenario": "S1",
+      "permeability_law": "power_law",
+      "coupling": "stage1_one_way",
+      "max_relative_element_residual": 6.943289859931815e-16,
+      "relative_charge_residual": 6.651851467916035e-17,
+      "max_local_charge_residual": 3.3306948789985944e-16,
+      "max_absolute_volume_residual": 0.0,
+      "mechanical_equilibrium_residual": 1.425747714575777e-14
+    },
+    {
+      "scenario": "S1",
+      "permeability_law": "power_law",
+      "coupling": "stage2_two_way",
+      "max_relative_element_residual": 6.380180307096936e-16,
+      "relative_charge_residual": 9.44566994687298e-17,
+      "max_local_charge_residual": 3.331311317344637e-16,
+      "max_absolute_volume_residual": 2.7755575615628914e-17,
+      "mechanical_equilibrium_residual": 1.4673655346166233e-14
+    },
+    {
+      "scenario": "S2",
+      "permeability_law": "kozeny_carman",
+      "coupling": "stage1_one_way",
+      "max_relative_element_residual": 6.868409100647845e-16,
+      "relative_charge_residual": 7.94966207761152e-17,
+      "max_local_charge_residual": 3.7009288979461887e-16,
+      "max_absolute_volume_residual": 0.0,
+      "mechanical_equilibrium_residual": 1.409300424542634e-14
+    },
+    {
+      "scenario": "S2",
+      "permeability_law": "kozeny_carman",
+      "coupling": "stage2_two_way",
+      "max_relative_element_residual": 6.514673103970675e-16,
+      "relative_charge_residual": 1.147874866471416e-16,
+      "max_local_charge_residual": 3.700849451500934e-16,
+      "max_absolute_volume_residual": 2.7755575615628914e-17,
+      "mechanical_equilibrium_residual": 1.426699056495824e-14
+    },
+    {
+      "scenario": "S2",
+      "permeability_law": "power_law",
+      "coupling": "stage1_one_way",
+      "max_relative_element_residual": 7.943389048472119e-16,
+      "relative_charge_residual": 2.350007221741519e-16,
+      "max_local_charge_residual": 3.330911480195909e-16,
+      "max_absolute_volume_residual": 0.0,
+      "mechanical_equilibrium_residual": 1.3481469967166836e-14
+    },
+    {
+      "scenario": "S2",
+      "permeability_law": "power_law",
+      "coupling": "stage2_two_way",
+      "max_relative_element_residual": 5.923609593109364e-16,
+      "relative_charge_residual": 3.0571736935562607e-16,
+      "max_local_charge_residual": 5.551664981880379e-16,
+      "max_absolute_volume_residual": 2.7755575615628914e-17,
+      "mechanical_equilibrium_residual": 1.4367581635729173e-14
+    },
+    {
+      "scenario": "S3",
+      "permeability_law": "kozeny_carman",
+      "coupling": "stage1_one_way",
+      "max_relative_element_residual": 5.906322453521694e-16,
+      "relative_charge_residual": 1.2037929857100492e-16,
+      "max_local_charge_residual": 3.700672068114046e-16,
+      "max_absolute_volume_residual": 0.0,
+      "mechanical_equilibrium_residual": 1.2751796437912812e-14
+    },
+    {
+      "scenario": "S3",
+      "permeability_law": "kozeny_carman",
+      "coupling": "stage2_two_way",
+      "max_relative_element_residual": 7.866391453139195e-16,
+      "relative_charge_residual": 3.165810693021972e-16,
+      "max_local_charge_residual": 5.180765649645096e-16,
+      "max_absolute_volume_residual": 2.7755575615628914e-17,
+      "mechanical_equilibrium_residual": 1.359637147621689e-14
+    },
+    {
+      "scenario": "S3",
+      "permeability_law": "power_law",
+      "coupling": "stage1_one_way",
+      "max_relative_element_residual": 4.8315994074027e-16,
+      "relative_charge_residual": 1.611871850576919e-16,
+      "max_local_charge_residual": 4.441142522339976e-16,
+      "max_absolute_volume_residual": 0.0,
+      "mechanical_equilibrium_residual": 1.2903139466927627e-14
+    },
+    {
+      "scenario": "S3",
+      "permeability_law": "power_law",
+      "coupling": "stage2_two_way",
+      "max_relative_element_residual": 6.244735414095614e-16,
+      "relative_charge_residual": 1.3327103667283968e-16,
+      "max_local_charge_residual": 2.9604891349814545e-16,
+      "max_absolute_volume_residual": 2.7701365507004638e-17,
+      "mechanical_equilibrium_residual": 1.4862134737325922e-14
+    }
+  ],
+  "contrasts": [
+    {
+      "scenario": "S1",
+      "permeability_law": "kozeny_carman",
+      "metric": "mean_porosity",
+      "stage1": 0.2999997367184628,
+      "stage2": 0.30039973540884146,
+      "relative_difference": 0.0013333301380662134,
+      "predeclared_threshold": 0.01,
+      "exceeds_threshold": false,
+      "two_way_decision": "pending_refinement_envelope"
+    },
+    {
+      "scenario": "S1",
+      "permeability_law": "kozeny_carman",
+      "metric": "total_calcite_mol_m2",
+      "stage1": 2.681815479063032e-07,
+      "stage2": 2.670558622790775e-07,
+      "relative_difference": 0.004197476060578904,
+      "predeclared_threshold": 0.01,
+      "exceeds_threshold": false,
+      "two_way_decision": "pending_refinement_envelope"
+    },
+    {
+      "scenario": "S1",
+      "permeability_law": "kozeny_carman",
+      "metric": "total_barite_mol_m2",
+      "stage1": 4.8728007317746705e-06,
+      "stage2": 4.872750216967815e-06,
+      "relative_difference": 1.0366688406998404e-05,
+      "predeclared_threshold": 0.01,
+      "exceeds_threshold": false,
+      "two_way_decision": "pending_refinement_envelope"
+    },
+    {
+      "scenario": "S1",
+      "permeability_law": "kozeny_carman",
+      "metric": "mean_pH",
+      "stage1": 6.491540739024723,
+      "stage2": 6.492102778228211,
+      "relative_difference": 8.658024744560143e-05,
+      "predeclared_threshold": 0.01,
+      "exceeds_threshold": false,
+      "two_way_decision": "pending_refinement_envelope"
+    },
+    {
+      "scenario": "S1",
+      "permeability_law": "kozeny_carman",
+      "metric": "mean_strain",
+      "stage1": 0.0003999986459869428,
+      "stage2": 0.0003999986462140787,
+      "relative_difference": 5.678416969296951e-10,
+      "predeclared_threshold": 0.01,
+      "exceeds_threshold": false,
+      "two_way_decision": "pending_refinement_envelope"
+    },
+    {
+      "scenario": "S1",
+      "permeability_law": "power_law",
+      "metric": "mean_porosity",
+      "stage1": 0.29999973671846264,
+      "stage2": 0.30039973540899456,
+      "relative_difference": 0.001333330138577102,
+      "predeclared_threshold": 0.01,
+      "exceeds_threshold": false,
+      "two_way_decision": "pending_refinement_envelope"
+    },
+    {
+      "scenario": "S1",
+      "permeability_law": "power_law",
+      "metric": "total_calcite_mol_m2",
+      "stage1": 2.6818154777695226e-07,
+      "stage2": 2.670563626349586e-07,
+      "relative_difference": 0.0041956098446022634,
+      "predeclared_threshold": 0.01,
+      "exceeds_threshold": false,
+      "two_way_decision": "pending_refinement_envelope"
+    },
+    {
+      "scenario": "S1",
+      "permeability_law": "power_law",
+      "metric": "total_barite_mol_m2",
+      "stage1": 4.872800735523889e-06,
+      "stage2": 4.8727469334076e-06,
+      "relative_difference": 1.1041312626855443e-05,
+      "predeclared_threshold": 0.01,
+      "exceeds_threshold": false,
+      "two_way_decision": "pending_refinement_envelope"
+    },
+    {
+      "scenario": "S1",
+      "permeability_law": "power_law",
+      "metric": "mean_pH",
+      "stage1": 6.491540738774934,
+      "stage2": 6.4921026135919195,
+      "relative_difference": 8.655492426153455e-05,
+      "predeclared_threshold": 0.01,
+      "exceeds_threshold": false,
+      "two_way_decision": "pending_refinement_envelope"
+    },
+    {
+      "scenario": "S1",
+      "permeability_law": "power_law",
+      "metric": "mean_strain",
+      "stage1": 0.0003999986459869459,
+      "stage2": 0.0003999986462148616,
+      "relative_difference": 5.697912345603397e-10,
+      "predeclared_threshold": 0.01,
+      "exceeds_threshold": false,
+      "two_way_decision": "pending_refinement_envelope"
+    },
+    {
+      "scenario": "S2",
+      "permeability_law": "kozeny_carman",
+      "metric": "mean_porosity",
+      "stage1": 0.2999997367470168,
+      "stage2": 0.3003997354372977,
+      "relative_difference": 0.0013333301376134562,
+      "predeclared_threshold": 0.01,
+      "exceeds_threshold": false,
+      "two_way_decision": "pending_refinement_envelope"
+    },
+    {
+      "scenario": "S2",
+      "permeability_law": "kozeny_carman",
+      "metric": "total_calcite_mol_m2",
+      "stage1": 2.6740778852849494e-07,
+      "stage2": 2.6628869397144134e-07,
+      "relative_difference": 0.004184973680878202,
+      "predeclared_threshold": 0.01,
+      "exceeds_threshold": false,
+      "two_way_decision": "pending_refinement_envelope"
+    },
+    {
+      "scenario": "S2",
+      "permeability_law": "kozeny_carman",
+      "metric": "total_barite_mol_m2",
+      "stage1": 4.8728006875153025e-06,
+      "stage2": 4.8727501745425314e-06,
+      "relative_difference": 1.0366312108854817e-05,
+      "predeclared_threshold": 0.01,
+      "exceeds_threshold": false,
+      "two_way_decision": "pending_refinement_envelope"
+    },
+    {
+      "scenario": "S2",
+      "permeability_law": "kozeny_carman",
+      "metric": "mean_pH",
+      "stage1": 6.4915407390621285,
+      "stage2": 6.492102778265448,
+      "relative_difference": 8.658024741910657e-05,
+      "predeclared_threshold": 0.01,
+      "exceeds_threshold": false,
+      "two_way_decision": "pending_refinement_envelope"
+    },
+    {
+      "scenario": "S2",
+      "permeability_law": "kozeny_carman",
+      "metric": "mean_strain",
+      "stage1": 0.00039999864613379327,
+      "stage2": 0.0003999986463596652,
+      "relative_difference": 5.646817787942506e-10,
+      "predeclared_threshold": 0.01,
+      "exceeds_threshold": false,
+      "two_way_decision": "pending_refinement_envelope"
+    },
+    {
+      "scenario": "S2",
+      "permeability_law": "power_law",
+      "metric": "mean_porosity",
+      "stage1": 0.2999997367470166,
+      "stage2": 0.300399735437451,
+      "relative_difference": 0.0013333301381252703,
+      "predeclared_threshold": 0.01,
+      "exceeds_threshold": false,
+      "two_way_decision": "pending_refinement_envelope"
+    },
+    {
+      "scenario": "S2",
+      "permeability_law": "power_law",
+      "metric": "total_calcite_mol_m2",
+      "stage1": 2.6740778840037284e-07,
+      "stage2": 2.6628918957965133e-07,
+      "relative_difference": 0.00418311982389495,
+      "predeclared_threshold": 0.01,
+      "exceeds_threshold": false,
+      "two_way_decision": "pending_refinement_envelope"
+    },
+    {
+      "scenario": "S2",
+      "permeability_law": "power_law",
+      "metric": "total_barite_mol_m2",
+      "stage1": 4.8728006912644905e-06,
+      "stage2": 4.872746890983434e-06,
+      "relative_difference": 1.1040936099301807e-05,
+      "predeclared_threshold": 0.01,
+      "exceeds_threshold": false,
+      "two_way_decision": "pending_refinement_envelope"
+    },
+    {
+      "scenario": "S2",
+      "permeability_law": "power_law",
+      "metric": "mean_pH",
+      "stage1": 6.491540738812195,
+      "stage2": 6.492102613629011,
+      "relative_difference": 8.655492423490494e-05,
+      "predeclared_threshold": 0.01,
+      "exceeds_threshold": false,
+      "two_way_decision": "pending_refinement_envelope"
+    },
+    {
+      "scenario": "S2",
+      "permeability_law": "power_law",
+      "metric": "mean_strain",
+      "stage1": 0.0003999986461337902,
+      "stage2": 0.0003999986463604574,
+      "relative_difference": 5.666699412573153e-10,
+      "predeclared_threshold": 0.01,
+      "exceeds_threshold": false,
+      "two_way_decision": "pending_refinement_envelope"
+    },
+    {
+      "scenario": "S3",
+      "permeability_law": "kozeny_carman",
+      "metric": "mean_porosity",
+      "stage1": 0.29999974242620464,
+      "stage2": 0.3003997411140531,
+      "relative_difference": 0.0013333301042645093,
+      "predeclared_threshold": 0.01,
+      "exceeds_threshold": false,
+      "two_way_decision": "pending_refinement_envelope"
+    },
+    {
+      "scenario": "S3",
+      "permeability_law": "kozeny_carman",
+      "metric": "total_calcite_mol_m2",
+      "stage1": 1.1348436740677947e-07,
+      "stage2": 1.1321874342190503e-07,
+      "relative_difference": 0.002340621804960322,
+      "predeclared_threshold": 0.01,
+      "exceeds_threshold": false,
+      "two_way_decision": "pending_refinement_envelope"
+    },
+    {
+      "scenario": "S3",
+      "permeability_law": "kozeny_carman",
+      "metric": "total_barite_mol_m2",
+      "stage1": 4.872811965648028e-06,
+      "stage2": 4.872761158354312e-06,
+      "relative_difference": 1.0426688752573736e-05,
+      "predeclared_threshold": 0.01,
+      "exceeds_threshold": false,
+      "two_way_decision": "pending_refinement_envelope"
+    },
+    {
+      "scenario": "S3",
+      "permeability_law": "kozeny_carman",
+      "metric": "mean_pH",
+      "stage1": 5.7667185290247245,
+      "stage2": 5.767619220206206,
+      "relative_difference": 0.00015618781755138508,
+      "predeclared_threshold": 0.01,
+      "exceeds_threshold": false,
+      "two_way_decision": "pending_refinement_envelope"
+    },
+    {
+      "scenario": "S3",
+      "permeability_law": "kozeny_carman",
+      "metric": "mean_strain",
+      "stage1": 0.0003999986753409697,
+      "stage2": 0.00039999867540496756,
+      "relative_difference": 1.5999516023909794e-10,
+      "predeclared_threshold": 0.01,
+      "exceeds_threshold": false,
+      "two_way_decision": "pending_refinement_envelope"
+    },
+    {
+      "scenario": "S3",
+      "permeability_law": "power_law",
+      "metric": "mean_porosity",
+      "stage1": 0.2999997424262045,
+      "stage2": 0.3003997411142235,
+      "relative_difference": 0.0013333301048331298,
+      "predeclared_threshold": 0.01,
+      "exceeds_threshold": false,
+      "two_way_decision": "pending_refinement_envelope"
+    },
+    {
+      "scenario": "S3",
+      "permeability_law": "power_law",
+      "metric": "total_calcite_mol_m2",
+      "stage1": 1.1348436740309084e-07,
+      "stage2": 1.1321877624067934e-07,
+      "relative_difference": 0.002340332580505379,
+      "predeclared_threshold": 0.01,
+      "exceeds_threshold": false,
+      "two_way_decision": "pending_refinement_envelope"
+    },
+    {
+      "scenario": "S3",
+      "permeability_law": "power_law",
+      "metric": "total_barite_mol_m2",
+      "stage1": 4.872811969386293e-06,
+      "stage2": 4.872757875304126e-06,
+      "relative_difference": 1.1101204500852041e-05,
+      "predeclared_threshold": 0.01,
+      "exceeds_threshold": false,
+      "two_way_decision": "pending_refinement_envelope"
+    },
+    {
+      "scenario": "S3",
+      "permeability_law": "power_law",
+      "metric": "mean_pH",
+      "stage1": 5.766718528978288,
+      "stage2": 5.7676189047522755,
+      "relative_difference": 0.00015613312310339657,
+      "predeclared_threshold": 0.01,
+      "exceeds_threshold": false,
+      "two_way_decision": "pending_refinement_envelope"
+    },
+    {
+      "scenario": "S3",
+      "permeability_law": "power_law",
+      "metric": "mean_strain",
+      "stage1": 0.0003999986753409696,
+      "stage2": 0.00039999867540583634,
+      "relative_difference": 1.6216736648525425e-10,
+      "predeclared_threshold": 0.01,
+      "exceeds_threshold": false,
+      "two_way_decision": "pending_refinement_envelope"
+    }
+  ]
+}

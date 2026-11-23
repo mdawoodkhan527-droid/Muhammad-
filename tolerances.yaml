@@ -1,0 +1,25 @@
+# Frozen numerical acceptance criteria for the reduced coupled-model prototype.
+# These are analyst-selected verification limits, not geological uncertainty ranges.
+reaction_balance:
+  absolute_element_residual: 1.0e-12
+  absolute_charge_residual: 1.0e-12
+conservation_each_step:
+  relative_C_mass: 1.0e-8
+  relative_S_mass: 1.0e-8
+  relative_Ca_mass: 1.0e-8
+  relative_Ba_mass: 1.0e-8
+  relative_Cl_mass: 1.0e-8
+  relative_Na_mass: 1.0e-8
+  relative_charge: 1.0e-8
+  absolute_pore_volume_residual: 1.0e-12
+  minimum_porosity: 1.0e-6
+limiting_case_transport:
+  relative_L2_error: 2.0e-2
+  relative_max_error: 3.0e-2
+limiting_case_poroelastic:
+  relative_displacement_L2_error: 5.0e-3
+  normalized_equilibrium_residual: 1.0e-10
+  zero_pressure_max_displacement: 1.0e-14
+coupling_decision:
+  stage1_vs_stage2_relative_output_difference: 1.0e-2
+  require_difference_above_numerical_refinement_envelope: true

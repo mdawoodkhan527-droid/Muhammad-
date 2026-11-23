@@ -1,0 +1,5 @@
+permeability_law,nx,matrix_rank,null_space_dimension,distinguishable_direction_count,singular_values
+Kozeny-Carman,40,4,11,1,3.36812;0.065709;1.83284e-05;2.04388e-06
+Kozeny-Carman,80,4,11,1,3.36812;0.0656789;1.71974e-05;3.15842e-06
+Power law,40,4,11,1,3.36812;0.065709;1.83284e-05;2.04388e-06
+Power law,80,4,11,1,3.36812;0.0656789;1.71974e-05;3.15842e-06

@@ -1,0 +1,10 @@
+{
+  "n": 32,
+  "minimum_permil": -24.146475566395644,
+  "median_permil": -17.032433325559047,
+  "maximum_permil": -9.625181240447592,
+  "within_published_mean_plusminus_2p1_n": 7,
+  "published_mean_permil": -13.7,
+  "published_spread_permil": 2.1,
+  "operator": "delta_mix = f_org*(delta_org + epsilon_SRB) + (1-f_org)*delta_background; delta_calcite = delta_mix + epsilon_calcite_HCO3"
+}

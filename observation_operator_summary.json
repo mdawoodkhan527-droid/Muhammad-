@@ -1,0 +1,22 @@
+{
+  "operator_mappings": 21,
+  "current_inverse_fit_eligible": 0,
+  "evidence_status_counts": {
+    "direct qualitative petrographic observation": 1,
+    "direct qualitative petrographic/mineralogical observation": 1,
+    "direct qualitative mineralogical observation": 1,
+    "direct measurement": 9,
+    "direct measurement with two unresolved source conflicts": 1,
+    "derived by total-S minus TRIS difference": 1,
+    "approximate calculated value, not direct measurement": 1,
+    "calculated Rock-Eval indices": 1,
+    "derived from measured TRIS \u03b434S and approximate calculated sulphate \u03b434S": 1,
+    "derived two-endmember mixing estimate": 1,
+    "derived inverse range": 1,
+    "proposed mechanism, not measured observation": 1,
+    "not measured in the source study": 1
+  },
+  "derived_non_unique_flagged": 18,
+  "source_conflicts_preserved": true,
+  "interpretation": "No published quantity is currently used in a likelihood because no fossil-registered sample support and calibrated forward map exist in the synthetic benchmark."
+}

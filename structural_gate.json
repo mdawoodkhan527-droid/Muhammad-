@@ -1,0 +1,25 @@
+{
+  "analysis_stage": "completed before numerical sensitivity/SVD",
+  "coupling": "one-way chemistry to mechanics",
+  "observation_outputs": [
+    "prior-averaged barite presence probability in source-rich bone analogue",
+    "prior-averaged barite presence probability in matrix analogue",
+    "prior-averaged calcite presence probability in matrix analogue",
+    "post-processed carbonate delta13C"
+  ],
+  "mechanical_parameters": [
+    "matrix elastic modulus",
+    "cement elastic modulus",
+    "homogenisation rule parameters",
+    "Biot coefficient",
+    "pore pressure and stress/loading",
+    "mechanical boundary conditions"
+  ],
+  "structural_result": "exactly unobservable by the selected one-way coupling topology because mechanics does not feed the chemical state and none of the selected observations measures mechanics",
+  "decision": "exclude mechanical parameters from numerical chemical SVD; do not label them weakly sensitive",
+  "possible_breaking_measurements": [
+    "specimen or close analogue elastic modulus and Poisson ratio",
+    "independent cementation or strain measurement",
+    "constrained burial stress history and mechanical boundary conditions"
+  ]
+}

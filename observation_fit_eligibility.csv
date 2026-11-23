@@ -1,0 +1,22 @@
+id,eligible_now,reason
+PETRO_BARITE_CAVITY,False,no site-registered sample support and calibrated forward map in the synthetic benchmark
+PETRO_CALCITE_MATRIX,False,no site-registered sample support and calibrated forward map in the synthetic benchmark
+PETRO_FAP_REPLACEMENT,False,no site-registered sample support and calibrated forward map in the synthetic benchmark
+TIC,False,no site-registered sample support and calibrated forward map in the synthetic benchmark
+D13C_CARB,False,no site-registered sample support and calibrated forward map in the synthetic benchmark
+D18O_CARB,False,no site-registered sample support and calibrated forward map in the synthetic benchmark
+D13C_ORG,False,no site-registered sample support and calibrated forward map in the synthetic benchmark
+TOTAL_S,False,no site-registered sample support and calibrated forward map in the synthetic benchmark
+TRIS_ABUNDANCE,False,no site-registered sample support and calibrated forward map in the synthetic benchmark
+SULPHATE_ABUNDANCE,False,no site-registered sample support and calibrated forward map in the synthetic benchmark
+D34S_TOTAL,False,no site-registered sample support and calibrated forward map in the synthetic benchmark
+D34S_TRIS,False,no site-registered sample support and calibrated forward map in the synthetic benchmark
+D34S_SULPHATE,False,no site-registered sample support and calibrated forward map in the synthetic benchmark
+ROCKEVAL_S1_S2_TOC_TMAX,False,no site-registered sample support and calibrated forward map in the synthetic benchmark
+HI_OI,False,no site-registered sample support and calibrated forward map in the synthetic benchmark
+N_AND_D15N,False,no site-registered sample support and calibrated forward map in the synthetic benchmark
+RIB_D34S_OFFSET,False,no site-registered sample support and calibrated forward map in the synthetic benchmark
+D13C_MIXING_FRACTION,False,no site-registered sample support and calibrated forward map in the synthetic benchmark
+D18O_WATER_RANGE,False,no site-registered sample support and calibrated forward map in the synthetic benchmark
+VFA_PHPATHWAY,False,no site-registered sample support and calibrated forward map in the synthetic benchmark
+MECHANICAL_PROPERTIES,False,no site-registered sample support and calibrated forward map in the synthetic benchmark

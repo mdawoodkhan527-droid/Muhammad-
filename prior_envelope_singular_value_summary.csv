@@ -1,0 +1,9 @@
+permeability_law,mode,sample_count,minimum_singular_value,median_singular_value,maximum_singular_value,numerical_nonzero_count_rel_1e-8,practical_count_sigma_ge_1
+kozeny_carman,1,32,2.99033915,3.39308047,3.62719118,32,32
+kozeny_carman,2,32,0.0553050452,0.06567327645,0.078164551,32,0
+kozeny_carman,3,32,5.30419687e-06,2.7410525899999997e-05,0.000109301936,32,0
+kozeny_carman,4,32,0.0,0.0,0.0,0,0
+power_law,1,32,2.99033915,3.39308047,3.62719118,32,32
+power_law,2,32,0.0553050452,0.06566217915,0.0781645508,32,0
+power_law,3,32,5.30420001e-06,2.73604045e-05,0.000109301936,32,0
+power_law,4,32,0.0,0.0,0.0,0,0
